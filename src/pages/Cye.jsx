@@ -95,13 +95,13 @@ const Cye = () => {
 
       {/* highlight */}
       <div className="bg-gray-100 grid grid-cols-1 sm:grid-cols-2 gap-4 pt-8 pb-8 mt-8 items-center">
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <img src={timetable1} alt="" />
-            <img src={timetable1} alt="" />
-            <img className="hidden sm:block" src={timetable1} alt="" />
-            <img className="hidden sm:block" src={timetable1} alt="" />
-            <img className="hidden sm:block" src={timetable1} alt="" />
-            <img className="hidden sm:block" src={timetable1} alt="" />
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 ">
+            <img className="rounded-lg" src={timetable1} alt="" />
+            <img className="rounded-lg" src={timetable1} alt="" />
+            <img className="hidden sm:block rounded-lg" src={timetable1} alt="" />
+            <img className="hidden sm:block rounded-lg" src={timetable1} alt="" />
+            <img className="hidden sm:block rounded-lg" src={timetable1} alt="" />
+            <img className="hidden sm:block rounded-lg" src={timetable1} alt="" />
         </div>
         <div>
           <h3>Highlights</h3>

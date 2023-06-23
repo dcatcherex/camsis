@@ -2,16 +2,9 @@ import pic from "../../../src/assets/images/bg.jpg";
 
 const Hero = () => {
 
-    const Hero1 = () =>{
-        return (
-            <>
-                <h3>Hero</h3>
-            </>
-        )
-    }
+    
   return (
     <>
-    <Hero1 />
       <div
         className="bg-gray-700 bg-cover bg-blend-overlay"
         style={{ backgroundImage: "url(../../../src/assets/images/bg.jpg)" }}
