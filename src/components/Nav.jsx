@@ -43,7 +43,7 @@ const Nav = () => {
     </Popover>
         <li className="hidden sm:block">about us</li>
         <li className="hidden sm:block">scholarship</li>
-        <li>contact us</li>
+        <li className="hidden sm:block">contact us</li>
       </ul>
       
       <div>

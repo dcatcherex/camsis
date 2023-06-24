@@ -13,13 +13,31 @@
         m-0.5
         rounded-sm
     }
+    .checkr {
+        @apply
+        border-4
+        border-rose-900
+
+    }
+    .checkg {
+        @apply
+        border-4
+        border-green-900
+    }
+
+    .checkb {
+        @apply
+        border-4
+        border-blue-900
+    }
 
     h2{
         @apply
         text-slate-900
-        text-4xl 
+        text-2xl
+        sm:text-4xl 
         font-bold 
-        mb-8
+        sm:mb-8
     }
 
     h3{

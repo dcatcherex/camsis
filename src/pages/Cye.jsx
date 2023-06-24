@@ -120,7 +120,7 @@ const Cye = () => {
               <img className="hidden sm:block rounded-lg" src={cye5} alt="" />
               <img className="hidden sm:block rounded-lg" src={cye6} alt="" />
           </div>
-          <div className="p-8">
+          <div className="px-8">
             <h3>Highlights</h3>
             <h4 className="mt-4">Experience Business and Entrepreneurship</h4>
             <h4>Experience Leadership and Public Speaking</h4>
