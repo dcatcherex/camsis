@@ -1,12 +1,13 @@
 import { EnvelopeIcon } from "@heroicons/react/24/outline";
 import { DevicePhoneMobileIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
+import logo_white from "../assets/images/logo-white.png"
 
 const Footer = () => {
   return (
-    <footer>
-      <div className="grid grid-cols-1 sd:grid-cols-2 md:grid-cols-4 p-12 bg-slate-900 text-gray-400 gap-8">
-        <div>logo</div>
+    <footer className="bg-slate-900">
+      <div className="max-w-[1280px] mx-auto grid grid-cols-1 sd:grid-cols-2 md:grid-cols-4 p-12  text-gray-400 gap-8">
+        <div><img className="max-w-[150px] pt-2" src={logo_white} alt="" /></div>
         <div>
           We are based in Cambridge, Bangkok, and Taipei providing various
           courses to both students and teachers aiming to create new generations
@@ -48,7 +49,7 @@ const Footer = () => {
         <div>
           <h4 className="text-white">Policy Links</h4>
           <div className="flex flex-col mt-4 underline underline-offset-4">
-            <Link to={""}>Privacy Policy</Link>
+            <Link to={"privacy"}>Privacy Policy</Link>
             <Link to={""}>Cookies Policy</Link>
             <Link to={""}>Terms & Conditions </Link>
             <Link to={""}>Health and Safety Policy </Link>

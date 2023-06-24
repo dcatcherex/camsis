@@ -3,6 +3,8 @@ import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 
+import logo_gold from '../assets/images/logo-gold.png'
+
 const programme = [
     {name: 'CAMBRIDGE YOUNG ENTREPRENEURS (CYE)', link: 'cye'},
     {name: 'UNIVERSITY SUBJECT DISCOVERY (USD)', link: ''}
@@ -10,8 +12,8 @@ const programme = [
 
 const Nav = () => {
   return (
-    <nav className="flex  justify-between items-center font-semibold p-4">
-      <img src="" alt="" />
+    <nav className="max-w-[1280px] mx-auto flex  justify-between items-center font-semibold p-4">
+      <Link to={'home'}><img className="max-w-[120px]" src={logo_gold} alt="" /></Link>
       <ul className="list-none flex text-sm gap-6 p-4 uppercase font-semibold">
         <Popover className="relative">
       <Popover.Button className="inline-flex items-center gap-x-1  text-gray-900 uppercase">

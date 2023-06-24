@@ -8,6 +8,8 @@ import './index.css'
 import Cye from './pages/Cye';
 import Hero from './components/Hero/Hero';
 
+import Privacy from './pages/Privacy'
+
 
 
 const router = createBrowserRouter([
@@ -18,10 +20,17 @@ const router = createBrowserRouter([
   children:[
     {index: true, element: <Hero />},
     {
+      path: 'home',
+      element: <Hero />
+    },
+    {
       path: 'cye',
       element: <Cye />
-    
-    }
+    },
+    {
+      path: 'privacy',
+      element: <Privacy />
+    },
   ]
 }
 
