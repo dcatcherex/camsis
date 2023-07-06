@@ -3,7 +3,7 @@ import { Fragment } from 'react'
 
 
 
-const PopOut = ({text,content_img=""}) => {
+const PopOut = ({text,content_img="",bg_color=""}) => {
   return (
     <div>
       <div className="">
@@ -13,7 +13,7 @@ const PopOut = ({text,content_img=""}) => {
             <Popover.Button
               className={`
                 ${open ? '' : 'text-opacity-90'}
-                btn`}
+                btn ${bg_color}`}
             >
               <span>{text}</span>
               

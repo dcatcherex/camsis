@@ -6,6 +6,7 @@ import App from './App.jsx'
 import './index.css'
 
 import Cye from './pages/Cye';
+import Usd from './pages/Usd';
 import Hero from './components/Hero/Hero';
 
 import Privacy from './pages/Privacy'
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
     {
       path: 'cye',
       element: <Cye />
+    },
+    {
+      path: 'usd',
+      element: <Usd />
     },
     {
       path: 'privacy',

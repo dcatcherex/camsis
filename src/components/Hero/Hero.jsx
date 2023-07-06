@@ -90,7 +90,7 @@ const Hero = () => {
           </div>
           <hr className="sm:hidden" />
           <div className="">
-            <p className="text-md font-bold text-sky-500">
+            <p className="text-md font-bold text-orange-500">
               Business and Entrepreneurship Course
             </p>
             <h2 className="uppercase">UNIVERSITY SUBJECT DISCOVERY (USD) </h2>
@@ -101,7 +101,7 @@ const Hero = () => {
               working in their subject fields.
             </p>
             <div className="mt-6">
-              <Link to={"/cye"} className="btn">
+              <Link to={"/cye"} className="btn bg-orange-500">
                 More "USD" details
               </Link>
             </div>

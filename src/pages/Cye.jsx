@@ -9,8 +9,6 @@ import cye6 from "../assets/images/cye/cye_6.jpg";
 import cyetop from "../assets/images/cye/cye_top.jpg";
 import cyecourseoutline from "../assets/images/cye/courseoutline.jpg"
 
-import { CheckCircleIcon } from "@heroicons/react/20/solid";
-
 import PopOut from "../components/Popout";
 
 const images = [cye1,cye2,cye3,cye4,cye5,cye6]
@@ -57,7 +55,7 @@ const Cye = () => {
   return (
     <div>
       <div
-        className="bg-cover bg-top bg-fixed bg-gray-600 bg-blend-overlay"
+        className="bg-cover bg-top bg-fixed bg-gray-600 bg-blend-overlay min-h-[420px]"
         style={{
           backgroundImage:  `url(${cyetop})`,
         }}
