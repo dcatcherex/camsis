@@ -40,7 +40,7 @@ const PopOut = ({text,content_img=""}) => {
                     >
                       <span className="flex items-center">
                         <span className="text-sm font-medium text-gray-900">
-                          Documentation
+                          Camsis Education
                         </span>
                       </span>
                       <span className="block text-sm text-gray-500">
