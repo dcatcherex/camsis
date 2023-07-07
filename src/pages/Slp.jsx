@@ -8,6 +8,7 @@ import usd7 from "../assets/images/usd/usd07.jpg";
 import usd8 from "../assets/images/usd/usd08.jpg"; 
 
 import slptop from "../assets/images/slp/slp_top.jpg";
+import slptimetable from "../assets/images/slp/slptimetable.jpg"
 import cyecourseoutline from "../assets/images/cye/courseoutline.jpg";
 
 import PopOut from "../components/Popout";
@@ -127,12 +128,12 @@ const Usd = () => {
         <div className="max-w-[1000px] mx-auto flex justify-between m-4">
           <PopOut
             text="Programme Schedule"
-            content_img={cyecourseoutline}
+            content_img={slptimetable}
             bg_color="bg-rose-500"
           />
           <PopOut
             text="Course Outline"
-            content_img={cyecourseoutline}
+            content_img={slptimetable}
             bg_color="bg-rose-500"
           />
         </div>

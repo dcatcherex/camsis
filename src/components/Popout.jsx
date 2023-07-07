@@ -33,7 +33,7 @@ const PopOut = ({text,content_img="",bg_color=""}) => {
                   <div className="relative grid gap-8 bg-white p-7 lg:grid-cols-2">
                     
                   </div>
-                  <div className="bg-gray-50 p-4">
+                  <div className="bg-gray-50 ">
                     <a
                       href="##"
                       className="flow-root rounded-md px-2 py-2 transition duration-150 ease-in-out hover:bg-gray-100 focus:outline-none focus-visible:ring focus-visible:ring-orange-500 focus-visible:ring-opacity-50"
@@ -44,7 +44,7 @@ const PopOut = ({text,content_img="",bg_color=""}) => {
                         </span>
                       </span>
                       <span className="block text-sm text-gray-500">
-                        Start integrating products and tools
+                        School of Future Education
                       </span>
                     </a>
                   </div>

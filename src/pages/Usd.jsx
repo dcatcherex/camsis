@@ -9,6 +9,7 @@ import usd8 from "../assets/images/usd/usd08.jpg";
 
 import usdtop from "../assets/images/usd/usd_top.jpg";
 import cyecourseoutline from "../assets/images/cye/courseoutline.jpg";
+import usdtimetable from "../assets/images/usd/usdtimetable.jpg"
 
 import PopOut from "../components/Popout";
 
@@ -45,14 +46,13 @@ const todos = [
 
 const includeItems = [
   "Tuitions",
-  "Supervisions & Workshops",
+  "Workshops",
   "Class materials",
-  "Accommodation in Cambridge Dorm",
-  "Excursions (Cambridge, London, Oxford)",
+  "Accommodation",
+  "Excursions (Cambridge, London)",
   "3 Meals a day",
   "Graduation dinner (Cambridge's Traditional Banquet)",
   "Transportations in the UK",
-  "Pre-departure orientation",
   "Travel and medical insurance",
   "Support staff 24/7",
 ];
@@ -122,7 +122,7 @@ const Usd = () => {
         <div className="max-w-[1000px] mx-auto flex justify-between m-4">
           <PopOut
             text="Programme Schedule"
-            content_img={cyecourseoutline}
+            content_img={usdtimetable}
             bg_color="bg-orange-500"
           />
           <PopOut
@@ -166,8 +166,8 @@ const Usd = () => {
 
           <div className="px-8">
             <h3>Highlights</h3>
-            <h4 className="mt-4">Experience Business and Entrepreneurship</h4>
-            <h4 className="mb-4">Experience Leadership and Public Speaking</h4>
+            <h4 className="mt-4">Certificate from a Cambridge College</h4>
+            
             <ul className="sm:leading-loose">
               {highlights.map((topic, index) => (
                 <li key={index}>{topic}</li>
