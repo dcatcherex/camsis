@@ -7,7 +7,8 @@ import logo_gold from '../assets/images/logo-gold.png'
 
 const programme = [
     {name: 'CAMBRIDGE YOUNG ENTREPRENEURS (CYE)', link: 'cye'},
-    {name: 'UNIVERSITY SUBJECT DISCOVERY (USD)', link: 'usd'}
+    {name: 'UNIVERSITY SUBJECT DISCOVERY (USD)', link: 'usd'},
+    {name: 'SCHOOL LEADERSHIP PROGRAMME (SLP)', link: 'slp'}
 ]
 
 const Nav = () => {

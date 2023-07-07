@@ -7,7 +7,7 @@ import usd6 from "../assets/images/usd/usd06.jpg";
 import usd7 from "../assets/images/usd/usd07.jpg"; 
 import usd8 from "../assets/images/usd/usd08.jpg"; 
 
-import usdtop from "../assets/images/usd/usd_top.jpg";
+import slptop from "../assets/images/slp/slp_top.jpg";
 import cyecourseoutline from "../assets/images/cye/courseoutline.jpg";
 
 import PopOut from "../components/Popout";
@@ -15,7 +15,7 @@ import PopOut from "../components/Popout";
 const images = [usd7,usd2,usd3,usd4,usd5,usd8];
 
 const hero =
-  "This is your best chance to explore various university subject choices and learn from experts who have years of experience working in their subject fields. You will acquire essential skills for successful university entrance and meet role models who are extremely passionate about what they do.";
+  "This programme is designed for the top decision-makers of School administration such as School Owners, Leadership, and Principals. We may need evidence of your authority before we confirm your participation.";
 
 const programmeOverview = [
   "Location: University of Cambridge, UK",
@@ -44,17 +44,16 @@ const todos = [
 ]
 
 const includeItems = [
-  "Tuitions",
-  "Supervisions & Workshops",
-  "Class materials",
-  "Accommodation in Cambridge Dorm",
-  "Excursions (Cambridge, London, Oxford)",
-  "3 Meals a day",
-  "Graduation dinner (Cambridge's Traditional Banquet)",
-  "Transportations in the UK",
-  "Pre-departure orientation",
-  "Travel and medical insurance",
-  "Support staff 24/7",
+  "Course Fees",
+  "All teaching, small group seminars, and skills development workshops",
+  "Single accommodation for the duration of programme",
+  "Venue costs and a private school visit",
+  "Daytime catering during programme days",
+  "Formal Dinner (Cambridge’s traditional college banquet)",
+  "One Gala college dinner and One welcome buffet",
+  "One-day tour in Cambridge",
+  "One-day packaged trip to London",
+  "Airport transfers and transportation for packaged tour"
 ];
 
 const notIncludeItems = [
@@ -69,6 +68,12 @@ const highlights = [
   "Crafting Perfect Portfolio",
   "Acquiring 21st Century skills (Public Speaking, Communication, Leadership, etc.)",
 ];
+
+const benefit = ("This tailored programme not only provides you with access to the highest quality of resources but also opens your door to an international community and its quality network. A lifelong network will help you explore your unrealised leadership potential to grow your education business and at the same time play your role in the rapid transformation of the education system. Post-COVID, every school, whether small or big has been tremendously put to the test and therefore needs critical transformation. This programme will broaden your perspective to deal with the modern-day challenges and help you learn the transformative approach from the world’s best academic staff and experts.")
+
+const award = ("As part of this programme, you will be invited to an evening reception on the last day of the programme. This is a great opportunity for you to network with global leaders, academics, and corporations. Tickets to this reception will be provided free of cost to all the programme candidates. However, this is a paid event and if you're required to invite your friends or additional guests, please contact the organisers in advance to arrange for their tickets.")
+
+const tour = ("The programme includes packaged tours both in Cambridge and in London. You don’t have to worry about making any reservations or transportation on the tour days. The London package may include attractions like a mini cruise on the Thames, Tower Bridge, London eye, etc, depending on the availability and the events scheduled in November. The Cambridge tour will include a punting and Cambridge guided walk tour of several attractions within the historic university town. Exact details of the touring day will be provided before the commencement of the programme.")
 
 const List = ({ items }) => {
   return (
@@ -101,16 +106,16 @@ const Usd = () => {
       <div
         className="bg-cover bg-bottom bg-fixed bg-gray-600 bg-blend-overlay min-h-[420px]"
         style={{
-          backgroundImage: `url(${usdtop})`,
+          backgroundImage: `url(${slptop})`,
         }}
       >
         <div className="max-w-[1280px] mx-auto p-8 text-center sm:text-left">
           <div className="lg:max-w-[50%]">
-            <p className="text-orange-500 font-semibold">
+            <p className="text-rose-500 font-semibold">
               Business and Entrepreneurship Course
             </p>
             <h2 className="text-white uppercase">
-              university subject discovery(usd)
+              school leadership programme(slp)
             </h2>
             <p className="text-white">{hero}</p>
           </div>
@@ -123,29 +128,29 @@ const Usd = () => {
           <PopOut
             text="Programme Schedule"
             content_img={cyecourseoutline}
-            bg_color="bg-orange-500"
+            bg_color="bg-rose-500"
           />
           <PopOut
             text="Course Outline"
             content_img={cyecourseoutline}
-            bg_color="bg-orange-500"
+            bg_color="bg-rose-500"
           />
         </div>
       </div>
 
       <div className="max-w-[1280px] mx-auto grid grid-cols-1 sm:grid-cols-2 gap-4 p-8">
         <div>
-          <h3 className="mb-4">Programme Overview</h3>
-          <List items={programmeOverview} />
+          <h3 className="mb-4">How will it benefit you?</h3>
+          <p className="text-justify max-w-[500px]">{benefit}</p>
 
-          <h3 className="mt-8 mb-4">Programme Objectives</h3>
-          <List items={programmeObjectives} />
+          <h3 className="mt-8 mb-4">Award Ceremony & Evening Reception</h3>
+          <p className="text-justify max-w-[500px]">{award}</p>
+
         </div>
         <div>
-          <h3 className="mb-4">What students would be able to do at the end of the "University Subject Discovery" course</h3>
-          <div className="mb-8">
-            <List items={todos} />
-          </div>
+          <h3 className="mb-4">Packaged tours Inclusion</h3>
+          <p className="text-justify max-w-[500px] mb-8">{tour}</p>
+
 
           <h3>Programme Fees:</h3>
           <h3>Available upon request</h3>

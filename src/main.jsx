@@ -7,6 +7,7 @@ import './index.css'
 
 import Cye from './pages/Cye';
 import Usd from './pages/Usd';
+import Slp from './pages/Slp';
 import Hero from './components/Hero/Hero';
 
 import Privacy from './pages/Privacy'
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
     {
       path: 'usd',
       element: <Usd />
+    },
+    {
+      path: 'slp',
+      element: <Slp />
     },
     {
       path: 'privacy',

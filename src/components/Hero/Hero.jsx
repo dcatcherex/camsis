@@ -151,7 +151,7 @@ const Hero = () => {
       <div className="m-8">
         <div className="sm:flex items-center max-w-[1200px] mx-auto  px-8 py-6 rounded-lg text-white bg-sky-500">
           <div>
-            <h2 className="uppercase font-bold text-white  ">our partners</h2>
+            <h2 className="uppercase font-semibold text-white  ">our partners</h2>
             <p className="py-4">{partners}</p>
           </div>
           <button className="btn bg-white text-sky-500 min-w-[130px] font-semibold">Contact us</button>
