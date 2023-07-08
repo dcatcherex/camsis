@@ -8,7 +8,7 @@ import usd7 from "../assets/images/usd/usd07.jpg";
 import usd8 from "../assets/images/usd/usd08.jpg"; 
 
 import usdtop from "../assets/images/usd/usd_top.jpg";
-import cyecourseoutline from "../assets/images/cye/courseoutline.jpg";
+import usdoutline from "../assets/images/usd/usdoutline.jpg";
 import usdtimetable from "../assets/images/usd/usdtimetable.jpg"
 
 import PopOut from "../components/Popout";
@@ -62,7 +62,7 @@ const notIncludeItems = [
   "Visa application fees (if applicable)",
 ];
 
-const highlights = [
+const highlights = ["Certificate of Attendance from a Cambridge College",
   "University Subjects Exploration (Medicine, Business, Law, Computer Science, etc.)",
   "University Entrance Preparation",
   "Learn from Cambridge Academics",
@@ -127,7 +127,7 @@ const Usd = () => {
           />
           <PopOut
             text="Course Outline"
-            content_img={cyecourseoutline}
+            content_img={usdoutline}
             bg_color="bg-orange-500"
           />
         </div>
@@ -165,8 +165,7 @@ const Usd = () => {
           <ImagesGrid />
 
           <div className="px-8">
-            <h3>Highlights</h3>
-            <h4 className="mt-4">Certificate from a Cambridge College</h4>
+            <h3 className="mb-4">Highlights</h3>
             
             <ul className="sm:leading-loose">
               {highlights.map((topic, index) => (

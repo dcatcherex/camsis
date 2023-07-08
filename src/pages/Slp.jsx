@@ -1,19 +1,23 @@
-import usd1 from "../assets/images/usd/usd01.jpg";
 import usd2 from "../assets/images/usd/usd02.jpg"; 
 import usd3 from "../assets/images/usd/usd03.jpg"; 
 import usd4 from "../assets/images/usd/usd04.jpg"; 
 import usd5 from "../assets/images/usd/usd05.jpg"; 
-import usd6 from "../assets/images/usd/usd06.jpg"; 
 import usd7 from "../assets/images/usd/usd07.jpg"; 
 import usd8 from "../assets/images/usd/usd08.jpg"; 
 
+import slp1 from "../assets/images/slp/slp1.jpg"
+import slp2 from "../assets/images/slp/slp2.jpg"
+import slp3 from "../assets/images/slp/slp3.jpg"
+import slp4 from "../assets/images/slp/slp4.jpg"
+
 import slptop from "../assets/images/slp/slp_top.jpg";
 import slptimetable from "../assets/images/slp/slptimetable.jpg"
+import slpoutline from "../assets/images/slp/slpoutline.jpg"
 import cyecourseoutline from "../assets/images/cye/courseoutline.jpg";
 
 import PopOut from "../components/Popout";
 
-const images = [usd7,usd2,usd3,usd4,usd5,usd8];
+const images = [usd7,slp1,slp2,slp3,slp4,usd8];
 
 const hero =
   "This programme is designed for the top decision-makers of School administration such as School Owners, Leadership, and Principals. We may need evidence of your authority before we confirm your participation.";
@@ -63,11 +67,11 @@ const notIncludeItems = [
 ];
 
 const highlights = [
-  "University Subjects Exploration (Medicine, Business, Law, Computer Science, etc.)",
-  "University Entrance Preparation",
-  "Learn from Cambridge Academics",
-  "Crafting Perfect Portfolio",
-  "Acquiring 21st Century skills (Public Speaking, Communication, Leadership, etc.)",
+  "Certificate of Attendance from a Cambridge College",
+  "Taught by Cambridge professors/lecturers",
+  "Schoo visits",
+  "Networking opportunities with Cambridge facultie",
+  "Trips (Cambridge, London etc.)",
 ];
 
 const benefit = ("This tailored programme not only provides you with access to the highest quality of resources but also opens your door to an international community and its quality network. A lifelong network will help you explore your unrealised leadership potential to grow your education business and at the same time play your role in the rapid transformation of the education system. Post-COVID, every school, whether small or big has been tremendously put to the test and therefore needs critical transformation. This programme will broaden your perspective to deal with the modern-day challenges and help you learn the transformative approach from the world’s best academic staff and experts.")
@@ -133,7 +137,7 @@ const Usd = () => {
           />
           <PopOut
             text="Course Outline"
-            content_img={slptimetable}
+            content_img={slpoutline}
             bg_color="bg-rose-500"
           />
         </div>
@@ -171,9 +175,8 @@ const Usd = () => {
           <ImagesGrid />
 
           <div className="px-8">
-            <h3>Highlights</h3>
-            <h4 className="mt-4">Experience Business and Entrepreneurship</h4>
-            <h4 className="mb-4">Experience Leadership and Public Speaking</h4>
+            <h3 className="mb-4">Highlights</h3>
+          
             <ul className="sm:leading-loose">
               {highlights.map((topic, index) => (
                 <li key={index}>{topic}</li>

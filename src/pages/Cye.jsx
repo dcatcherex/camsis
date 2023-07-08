@@ -29,7 +29,7 @@ const includeItems = ["Course Fees","All teaching, small group seminars, and ski
 
 const notIncludeItems = ["International fligh ticket","Visa application fees (if applicable)"]
 
-const highlights = ["Taught by Cambridge professors/lecturers","Certificate of attendance","University-level subject in a campus environment","Mini Hackathon experience (the winning team gets a prize)","Workshops with local businesses and start-up companies","Skills development workshops for future success","Real-life experience as a Cambridge student","Networking opportunities with Cambridge faculties & students/ successful entrepreneurs & innovators / classmates from top schools","Day trips to Oxford/London"]
+const highlights = ["Taught by Cambridge professors/lecturers","Certificate of Attendance from a Cambridge College","University-level subject in a campus environment","Mini Hackathon experience (the winning team gets a prize)","Workshops with local businesses and start-up companies","Skills development workshops for future success","Real-life experience as a Cambridge student","Networking opportunities with Cambridge faculties & students/ successful entrepreneurs & innovators / classmates from top schools","Day trips to Oxford/London"]
   
 const List = ({items})=>{
   return (

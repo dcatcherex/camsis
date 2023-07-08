@@ -4,6 +4,7 @@ import { useState } from "react";
 import pic from "../../../src/assets/images/bg.jpg";
 import cyepic from "../../assets/images/cye/cye_top.jpg";
 import usdpic from "../../assets/images/usd/usd_top.jpg";
+import slppic from "../../assets/images/slp/slp1.jpg"
 import cyetest from "../../assets/data/cye_testimonials.json";
 import introvideo from "../../assets/images/cye/introvideo.jpg";
 
@@ -70,13 +71,13 @@ const Hero = () => {
       </div>
       {/* courses */}
       <div className=" bg-slate-100">
-        <div className="max-w-[1280px] mx-auto px-8 py-10  grid grid-cols-1 sm:grid-cols-2 gap-10 sm:gap-8">
+        <div className="max-w-[1280px] mx-auto px-8 py-10  grid grid-cols-1 sm:grid-cols-3 gap-10 sm:gap-8">
           <div className="">
             <p className="text-md font-bold text-sky-500">
               Business and Entrepreneurship Course
             </p>
             <h2 className="uppercase">cambridge young entrepreneurs (cye)</h2>
-            <img className="my-4 sm:my-6 rounded-md " src={cyepic} alt="" />
+            <img className="my-4 sm:my-6 rounded-md " src={cyepic}  alt="" />
             <p className="line-clamp-3">
               Situated in the historic town of Cambridge, the course combines
               both academic knowledge for university and key skills for future
@@ -94,15 +95,31 @@ const Hero = () => {
               Business and Entrepreneurship Course
             </p>
             <h2 className="uppercase">UNIVERSITY SUBJECT DISCOVERY (USD) </h2>
-            <img className="my-6 rounded-md " src={usdpic} alt="" />
+            <img className="my-6 rounded-md " src={usdpic} height={10} alt="" />
             <p className="line-clamp-3">
               This is your best chance to explore various university subject
               choices and learn from experts who have years of experience
               working in their subject fields.
             </p>
             <div className="mt-6">
-              <Link to={"/cye"} className="btn bg-orange-500">
+              <Link to={"/usd"} className="btn bg-orange-500">
                 More "USD" details
+              </Link>
+            </div>
+          </div>
+          <hr className="sm:hidden" />
+          <div className="">
+            <p className="text-md font-bold text-rose-500">
+              Business and Entrepreneurship Course
+            </p>
+            <h2 className="uppercase">school leadership programme (slp) </h2>
+            <img className="my-6 rounded-md " src={slppic} alt="" />
+            <p className="line-clamp-3">
+            This programme is designed for the top decision-makers of School administration such as School Owners, Leadership, and Principals.
+            </p>
+            <div className="mt-6">
+              <Link to={"/slp"} className="btn bg-rose-500">
+                More "SLP" details
               </Link>
             </div>
           </div>
