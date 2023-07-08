@@ -1,5 +1,7 @@
 # Safeguarding Policy
 
+# Safeguarding Policy
+
 This policy applies to the whole of CAMSIS Education’ workforce, including volunteers and trustees. This policy is available for parents online. This policy is based on:
 
 - Department for Education guidance;

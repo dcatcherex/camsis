@@ -42,9 +42,9 @@ const Nav = () => {
         </Popover.Panel>
       </Transition>
     </Popover>
-        <li className="hidden sm:block">about us</li>
-        <li className="hidden sm:block">scholarship</li>
-        <li className="hidden sm:block">contact us</li>
+        {/* <li className="hidden sm:block">about us</li> */}
+        {/* <li className="hidden sm:block">scholarship</li> */}
+        {/* <li className="hidden sm:block">contact us</li> */}
       </ul>
       
       <div>
