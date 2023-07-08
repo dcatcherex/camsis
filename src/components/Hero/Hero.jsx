@@ -15,7 +15,6 @@ const videos = [
 ]
 
 const Hero = () => {
-  const [isOpen, setOpen] = useState(false);
 
   return (
     <>
@@ -65,7 +64,6 @@ const Hero = () => {
             src="https://www.youtube.com/embed/03qgPF1Sp70"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
           ></iframe>
         </div>
       </div>
@@ -158,7 +156,7 @@ const Hero = () => {
             className="w-[300px] rounded-md"
             src={video}
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen>
+            >
         
             </iframe>
           ))}

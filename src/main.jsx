@@ -10,7 +10,18 @@ import Usd from './pages/Usd';
 import Slp from './pages/Slp';
 import Hero from './components/Hero/Hero';
 
-import Privacy from './pages/Privacy'
+import Privacy from './pages/Privacy';
+import Term from './pages/Term';
+import Health from './pages/Health';
+import Cookies from './pages/Cookies';
+import Safeguarding from './pages/Safeguarding';
+import Complaints from './pages/Complaints';
+import Coronavirus from './pages/Coronavirus';
+
+
+
+
+
 
 
 
@@ -40,6 +51,30 @@ const router = createBrowserRouter([
     {
       path: 'privacy',
       element: <Privacy />
+    },
+    {
+      path: 'term',
+      element: <Term />
+    },
+    {
+      path: 'health',
+      element: <Health />
+    },
+    {
+      path: 'cookies',
+      element: <Cookies />
+    },
+    {
+      path: 'safeguarding',
+      element: <Safeguarding  />
+    },
+    {
+      path: 'complaints',
+      element: <Complaints />
+    },
+    {
+      path: 'coronavirus',
+      element: <Coronavirus />
     },
   ]
 }

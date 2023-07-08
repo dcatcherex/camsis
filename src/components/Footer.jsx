@@ -50,12 +50,12 @@ const Footer = () => {
           <h4 className="text-white">Policy Links</h4>
           <div className="flex flex-col mt-4 underline underline-offset-4">
             <Link to={"privacy"}>Privacy Policy</Link>
-            <Link to={""}>Cookies Policy</Link>
-            <Link to={""}>Terms & Conditions </Link>
-            <Link to={""}>Health and Safety Policy </Link>
-            <Link to={""}>Safeguarding Policy</Link>
-            <Link to={""}>Complaints Policy</Link>
-            <Link to={""}>Coronavirus (COVID-19) Policy Update</Link>
+            <Link to={"cookies"}>Cookies Policy</Link>
+            <Link to={"term"}>Terms & Conditions </Link>
+            <Link to={"health"}>Health and Safety Policy </Link>
+            <Link to={"safeguarding"}>Safeguarding Policy</Link>
+            <Link to={"complaints"}>Complaints Policy</Link>
+            <Link to={"coronavirus"}>Coronavirus (COVID-19) Policy Update</Link>
           </div>
         </div>
       </div>

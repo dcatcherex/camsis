@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 @layer components {
+    
+      
     .btn {
         @apply
         bg-sky-500
@@ -37,6 +39,7 @@
         text-2xl
         sm:text-4xl 
         font-bold 
+        mb-4
         sm:mb-8
     }
 
@@ -57,15 +60,13 @@
     p{
         @apply
         font-normal 
+        mb-4
         
     }
 
     ol{
         @apply
         list-decimal
-        font-semibold
-        text-lg
-        ml-4
     }
 
     li{

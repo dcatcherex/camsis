@@ -1,6 +1,6 @@
 const Privacy = () => {
   return (
-    <div>
+    <div className="bg-gray-100 p-8">
       <h2 className="">Privacy Policy</h2>
       <p className="">
         CAMSIS Education is committed to safeguarding your privacy. Contact us
