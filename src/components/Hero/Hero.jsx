@@ -24,7 +24,7 @@ const Hero = () => {
       >
         {/* <img src={pic} alt="" /> */}
         <div className=" max-w-[1280px] mx-auto">
-          <div className=" sm:max-w-[50%] px-4 py-20 text-center sm:text-left text-white font-medium text-3xl sm:text-5xl uppercase ">
+          <div className=" min-h-[500px] sm:max-w-[50%] px-4 py-20 text-center sm:text-left text-white font-medium text-3xl sm:text-5xl uppercase ">
             <p className="text-base">nelson mandela,</p>
             <p className="my-3 font-bold">
               "education is the most powerful weapon which you can use to change
@@ -33,9 +33,9 @@ const Hero = () => {
             <p className="uppercase text-base">
               honorary fellow of magdalene college university of cambridge
             </p>
-            <button className="uppercase text-base  mt-16 px-4 py-3 bg-blue-500 rounded-sm font-semibold text-white">
+            {/* <button className="uppercase text-base  mt-16 px-4 py-3 bg-blue-500 rounded-sm font-semibold text-white">
               apply now
-            </button>
+            </button> */}
           </div>
         </div>
       </div>
@@ -169,7 +169,7 @@ const Hero = () => {
             <h2 className="uppercase font-semibold text-white  ">our partners</h2>
             <p className="py-4">{partners}</p>
           </div>
-          <button className="btn bg-white text-sky-500 min-w-[130px] font-semibold">Contact us</button>
+          <button className="btn bg-white text-sky-500 min-w-[130px] font-semibold"><Link to={""}>Contact us</Link></button>
         </div>
       </div>
     </>

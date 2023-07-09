@@ -42,13 +42,13 @@ const Nav = () => {
         </Popover.Panel>
       </Transition>
     </Popover>
-        {/* <li className="hidden sm:block">about us</li> */}
+        <li className="hidden sm:block"><Link to={'about'}>about us</Link></li>
         {/* <li className="hidden sm:block">scholarship</li> */}
-        {/* <li className="hidden sm:block">contact us</li> */}
+        <li className="hidden sm:block"><Link to={'contact'}>contact us</Link></li>
       </ul>
       
       <div>
-        <button className="hidden sm:block uppercase btn">apply now</button>
+        <button className="hidden sm:block uppercase btn"><a className="text-white" href="https://forms.gle/o5Kvf7YC7pfmG51z9">apply now</a></button>
       </div>
     </nav>
   );
