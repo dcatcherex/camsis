@@ -90,7 +90,7 @@ const Hero = () => {
           <hr className="sm:hidden" />
           <div className="">
             <p className="text-md font-bold text-orange-500">
-              Business and Entrepreneurship Course
+            Pathway to Passion
             </p>
             <h2 className="uppercase">UNIVERSITY SUBJECT DISCOVERY (USD) </h2>
             <img className="my-6 rounded-md " src={usdpic} height={10} alt="" />
@@ -108,7 +108,7 @@ const Hero = () => {
           <hr className="sm:hidden" />
           <div className="">
             <p className="text-md font-bold text-rose-500">
-              Business and Entrepreneurship Course
+            School Leadership Team's Professional Development
             </p>
             <h2 className="uppercase">school leadership programme (slp) </h2>
             <img className="my-6 rounded-md " src={slppic} alt="" />

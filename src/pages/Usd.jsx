@@ -21,7 +21,7 @@ const hero =
 const programmeOverview = [
   "Location: University of Cambridge, UK",
   "Date: to be announced",
-  "Age: 14-17",
+  "Age: 13-17",
   "Topics: University-level subjects exploration/ University application preparation/ 21st Century skills",
   "Suitable for: Students who want to gain insights into a wide range of university subject areas",
   "Exploring which university subject to pursue",
@@ -107,7 +107,7 @@ const Usd = () => {
         <div className="max-w-[1280px] mx-auto p-8 text-center sm:text-left">
           <div className="lg:max-w-[50%]">
             <p className="text-orange-500 font-semibold">
-              Business and Entrepreneurship Course
+            Pathway to Passion
             </p>
             <h2 className="text-white uppercase">
               university subject discovery(usd)

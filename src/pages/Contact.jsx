@@ -129,7 +129,7 @@ const Contact = () => {
         {/* course outline */}
         <div className=" max-w-[1000px] mx-auto grid grid-cols-1 sm:grid-cols-3 gap-8 text-center text-slate-500">
           <div className="bg-white p-2 rounded-lg ">
-            <h3 className="mb-4 text-blue-950">Work Hourse</h3>
+            <h3 className="mb-4 text-blue-950">Work Hours</h3>
             Monday to Friday: 7am to 7pm
             <p>Weekend: 10am to 5 pm</p>
           </div>

@@ -69,8 +69,8 @@ const notIncludeItems = [
 const highlights = [
   "Certificate of Attendance from a Cambridge College",
   "Taught by Cambridge professors/lecturers",
-  "Schoo visits",
-  "Networking opportunities with Cambridge facultie",
+  "School visits",
+  "Networking opportunities with Cambridge faculties",
   "Trips (Cambridge, London etc.)",
 ];
 
@@ -117,8 +117,7 @@ const Usd = () => {
         <div className="max-w-[1280px] mx-auto p-8 text-center sm:text-left">
           <div className="lg:max-w-[50%]">
             <p className="text-rose-500 font-semibold">
-              Business and Entrepreneurship Course
-            </p>
+            School Leadership Team's Professional Development            </p>
             <h2 className="text-white uppercase">
               school leadership programme(slp)
             </h2>
