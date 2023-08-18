@@ -12,6 +12,7 @@ import oilsally2 from "../assets/images/about/oilsally2.jpg";
 import oilsally3 from "../assets/images/about/oilsally3.jpg";
 import sally from "../assets/images/about/sally.jpg";
 import oil from "../assets/images/about/oil.jpg";
+import mypic from "../assets/images/about/my.jpg";
 import jaideep from "../assets/images/about/Jaideep.jpg"
 import monique from "../assets/images/about/monique.jpg"
 import joe from "../assets/images/about/joe.jpg"
@@ -41,6 +42,8 @@ const poTsai =
 
 const vimunchalee =
   "With a B.A. in English from Chulalongkorn University in Thailand, an M.A. in International Culture and Communication Studies from Waseda University in Japan, and a PhD in Education from the University of Cambridge, Vimunchalee is set to make a valuable contribution in the education field. Being aware that there is always room to improve the quality of teaching and learning, she aims to deliver quality programmes shaping both students and teachers to be skilled and competent in areas needed in the 21st century. Her main goal is to create a network of skillful and competent human resources and bring change, not only to those attending the programmes, but also to those who are from disadvantaged backgrounds with a lack of access to resources.";
+
+const my = "Born and raised in a working-class family in Hanoi, Viet Nam, My believes that education has the power to allow anyone to acheive their dreams regardless of their backgrounds . She has been awarded full scholarships for the Master's and PhD degrees at the University of Cambridge, and is currently a third year PhD student in Cancer Genomics. As well as a scientist, My is a mentor and a motivational writer. She has assisted many Vietnamese students in applying for scholarships to study abroad. She is excited to provide opportunities for students and teachers to experience the world-leading education."
 
 const ourLecturers1 = ("Our expert tutors are academics form the University of Cambridge and professionals who are experts in their own fields.")
 
@@ -128,6 +131,16 @@ const About = () => {
             <h3 className="my-4 text-2xl">Dr. Vimunchalee Dulyasittikorn</h3>
             <p className="uppercase font-semibold">founder</p>
             <p className="text-justify ">{vimunchalee}</p>
+          </div>
+        </div>
+        <div className="p-8 sm:flex items-center justify-between ">
+          <div>
+            <img src={mypic} className=" rounded-lg sm:min-w-[400px]" alt="" />
+          </div>
+          <div className=" sm:mx-8">
+            <h3 className="my-4 text-2xl">My Ha Pham</h3>
+            <p className="uppercase font-semibold">Program Manager</p>
+            <p className="text-justify ">{my}</p>
           </div>
         </div>
       </div>
