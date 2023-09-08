@@ -7,7 +7,7 @@ import slp2 from "../assets/images/slp/slp2.jpg"
 import slp3 from "../assets/images/slp/slp3.jpg"
 import slp4 from "../assets/images/slp/slp4.jpg"
 
-import slptop from "../assets/images/slp/slp_top.jpg";
+import slpbanner from "../assets/images/slp/slpbanner.jpg";
 // import slptimetable from "../assets/images/slp/slptimetable.jpg"
 import slpoutline from "../assets/images/slp/slpoutline.jpg"
 
@@ -74,7 +74,7 @@ const Usd = () => {
       <div
         className="bg-cover bg-bottom bg-fixed bg-gray-600 bg-blend-overlay min-h-[420px]"
         style={{
-          backgroundImage: `url(${slptop})`,
+          backgroundImage: `url(${slpbanner})`,
         }}
       >
         <div className="max-w-[1280px] mx-auto p-8 text-center sm:text-left">
