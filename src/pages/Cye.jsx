@@ -1,5 +1,3 @@
-import timetable1 from "../assets/images/camsis-timetable-1.png";
-import timetable2 from "../assets/images/camsis-timetable-2.png";
 import cye1 from "../assets/images/cye/cye.jpg";
 import cye2 from "../assets/images/cye/cye_2.jpg";
 import cye3 from "../assets/images/cye/cye_3.jpg";
@@ -7,9 +5,13 @@ import cye4 from "../assets/images/cye/cye_4.jpg";
 import cye5 from "../assets/images/cye/cye_5.jpg";
 import cye6 from "../assets/images/cye/cye_6.jpg";
 import cyetop from "../assets/images/cye/cye_top.jpg";
-import cyecourseoutline from "../assets/images/cye/courseoutline.jpg"
+import cyetimetable from "../assets/images/cye/cyetimetable.jpg"
+import cyeoutline from "../assets/images/cye/cyeoutline.jpg"
 
 import PopOut from "../components/Popout";
+
+import PropTypes from 'prop-types';
+
 
 const images = [cye1,cye2,cye3,cye4,cye5,cye6]
 
@@ -19,15 +21,15 @@ const hero = (
   "Situated in the historic town of Cambridge, the course combines both academic knowledge for university and key skills for future careers. It is perfect for gaining an introduction into the study of entrepreneurship at the university level and develop skills essential for success such as leadership skills and communication skills. Here, you will get to study with prominent academics from the world-renowned University of Cambridge, live in its centuries-old college accommodations just like their students, dine at its historic dining halls, meet bright young minds from Cambridge who would be your supervisors and connect with classmates. This truly is a once-in-a-lifetime experience that you wouldn’t want to miss."
 )
 
-const topics = ['Entrepreneurship fundamentals',"Innovation and “Design Thinking”","Creating differentiated products and services","Understanding customers","Growth strategies","Business model innovation","Finance","Business plan preparation"
+const courseOverview1 = 'Disruptions continue to happen and challenge conventional businesses and approaches. We see disruptions over centuries through the change in technology, customer behavior and introduction of innovation.  Smartphones and tablets are threatening the personal computers. The Netflix business model and technology drove Blockbuster to bankruptcy etc'
+
+const courseOverview2 = 'In this course, students will learn about what it takes to be an entrepreneur, how to start and run a successful business by understanding the market, customer changes, and challenges. Most importantly, students will learn how to innovate and create a solid business plan that fits and responds to 21st century business settings.  At the end of the course, students will have a chance to integrate their accumulated knowledge and present a business plan in a form of hackathon competition.'
+
+const courseObjectives = [
+  "Understand the important concepts related to business processes, planning, and operations",
+"Demonstrate business knowledge required to propose solutions and solve problems in business and other settings",
+"Acquire a solid foundation to become an entrepreneur with the ability to think systematically, rationally, and creatively in order to integrate the knowledge accumulated needed for starting a business"
 ]
-
-const teachingApproaches = ["Lectures","Oxbridge-style supervisions","In-class experiential activities", "Project-based learning","Small group workshops(with local business & start-up companies"]
-
-const includeItems = ["Course Fees","All teaching, small group seminars, and skills development workshops","Accommodation for 14 nights in college room","Venue and study materials","3 meals a day","Formal Dinner (Cambridge’s traditional college banquet)","All programmed visits and excursions","All transportation including airport transfers","A graduation ceremony","A pre-departure orientation","Travel insurance","A supervisor accompanying the group throughout the programme from airport departure to home arrival"
-]
-
-const notIncludeItems = ["International fligh ticket","Visa application fees (if applicable)"]
 
 const highlights = ["Taught by Cambridge professors/lecturers","Certificate of Attendance from a Cambridge College","University-level subject in a campus environment","Mini Hackathon experience (the winning team gets a prize)","Workshops with local businesses and start-up companies","Skills development workshops for future success","Real-life experience as a Cambridge student","Networking opportunities with Cambridge faculties & students/ successful entrepreneurs & innovators / classmates from top schools","Day trips to Oxford/London"]
   
@@ -74,45 +76,40 @@ const Cye = () => {
       </div>
       {/* programme schedule */}
       <div className="bg-slate-950 p-8 ">
-        <h3 className="text-white text-center p-2">Programme Schedule</h3>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          <div>
-            <img src={timetable1} alt="" />
-          </div>
-          <div>
-            <img src={timetable2} alt="" />
-          </div>
+        {/* course outline */}
+        <div className="max-w-[1000px] mx-auto flex justify-between m-4">
+          <PopOut
+            text="Programme Schedule"
+            content_img={cyetimetable}
+            bg_color="bg-sky-500"
+          />
+          <PopOut
+            text="Course Outline"
+            content_img={cyeoutline}
+            bg_color="bg-sky-500"
+          />
         </div>
-      </div>
-      {/* course outline */}
-      <div className="flex justify-center mt-8">
-        <PopOut text="Course Outline" content_img={cyecourseoutline} />
       </div>
       
 
       <div className="max-w-[1280px] mx-auto grid grid-cols-1 sm:grid-cols-2 gap-4 p-8">
-        <div>
-          <h3>CYE Course Outline</h3>
-          <h4 className="mt-4">Topic</h4>
-          <List items={topics} />
-
-          <h4 className="mt-4">Teaching Approaches</h4>
-          <List items={teachingApproaches} />
-          
+        <div className="text-justify max-w-[500px]">
+          <h3 className="mb-4">Course Overview</h3>
+          <p >{courseOverview1}</p>
+          <p>{courseOverview2}</p>
         </div>
-        <div>
-          <h3>Programme Fees:</h3>
-          <h3>Available upon request</h3>
-          <h4 className="mt-4">What is Included:</h4>
-          <List items={includeItems} />
+        <div className="text-justify max-w-[500px]">
+          <h3 className="mb-4">Course Objectives</h3>
+          <div className="mb-8">
+            <p>The students are able to:</p>
+          <List items={courseObjectives} />
 
-          <h4 className="mt-4">
-            What is <span className="text-red-500 ">Not</span> Included:
-          </h4>
-          <List items={notIncludeItems} />
+          </div>
 
+          <h4 className="capitalize">Programme Fees: Available upon request</h4>
         </div>
       </div>
+
 
       {/* highlight */}
       <div className="bg-gray-100 ">
@@ -121,8 +118,7 @@ const Cye = () => {
 
           <div className="px-8">
             <h3>Highlights</h3>
-            <h4 className="mt-4">Experience Business and Entrepreneurship</h4>
-            <h4>Experience Leadership and Public Speaking</h4>
+            <h4 className="mt-4">Experience Business / Entrepreneurship / Leadership and Public Speaking</h4>
             <ul className="sm:leading-loose">
             {highlights.map((topic, index) => (
                 <li key={index}>{topic}</li>
@@ -135,6 +131,10 @@ const Cye = () => {
       {/* What our students say about us */}
     </div>
   );
+};
+
+List.propTypes = {
+  items: PropTypes.array.isRequired,
 };
 
 export default Cye;

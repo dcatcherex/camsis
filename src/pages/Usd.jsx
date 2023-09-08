@@ -1,15 +1,16 @@
-import usd1 from "../assets/images/usd/usd01.jpg";
 import usd2 from "../assets/images/usd/usd02.jpg"; 
 import usd3 from "../assets/images/usd/usd03.jpg"; 
 import usd4 from "../assets/images/usd/usd04.jpg"; 
 import usd5 from "../assets/images/usd/usd05.jpg"; 
-import usd6 from "../assets/images/usd/usd06.jpg"; 
 import usd7 from "../assets/images/usd/usd07.jpg"; 
 import usd8 from "../assets/images/usd/usd08.jpg"; 
 
 import usdtop from "../assets/images/usd/usd_top.jpg";
 import usdoutline from "../assets/images/usd/usdoutline.jpg";
 import usdtimetable from "../assets/images/usd/usdtimetable.jpg"
+
+import PropTypes from 'prop-types';
+
 
 import PopOut from "../components/Popout";
 
@@ -18,56 +19,28 @@ const images = [usd7,usd2,usd3,usd4,usd5,usd8];
 const hero =
   "This is your best chance to explore various university subject choices and learn from experts who have years of experience working in their subject fields. You will acquire essential skills for successful university entrance and meet role models who are extremely passionate about what they do.";
 
-const programmeOverview = [
-  "Location: University of Cambridge, UK",
-  "Date: to be announced",
-  "Age: 13-17",
-  "Topics: University-level subjects exploration/ University application preparation/ 21st Century skills",
-  "Suitable for: Students who want to gain insights into a wide range of university subject areas",
-  "Exploring which university subject to pursue",
-  "Studying abroad and gaining insights into undergraduate life",
-  "Gaining support for university applications",
-  "Learning directly from experts and academics from world-class universities",
-  "Developing key attributes via academic skills workshops and supervisions",
-];
+const courseOverview1 = 'USD offers students a unique opportunity to explore their interests and discover their desired field of study as well as career paths. By attending university-level classes in a range of social sciences and natural sciences, students gain valuable exposure to diverse disciplines, enabling them to explore different areas of academic interest. This exposure supports students in making informed decisions about their high school courses and provides insights that can guide their choices for future majors in college.'
 
-const programmeObjectives = [
-  "Build students’ aspirations through exposure to academically challenging classes from expert tutors.",
-  "Develop key skills for students’ future success in education and career via workshops",
-  "Encourage students to discover which field they want to pursue a degree",
-  "Prepare students & strengthen their portfolios.",
-  "Inspire students to be a leader/change agents",
-  "Help students grow their network.",
-];
+const courseOverview2 = 'In addition to subject-specific classes, students also participate in 21st Century Skills Development workshops which focus on essential skills for the modern world, including leadership, collaboration, public speaking, and presentation skills. By acquiring these vital skills, students are better equipped to navigate their educational journey and future professional endeavors. Most importantly, students will receive strategic guidance for university application, preparing them for their desired choice of university.'
 
-const todos = [
-  "Gain insights into a wide range of university-level subjects","Discover which subject they're passionate about","Build essential skills for a successful entrance to universities","Craft their portfolio","Acquire 21st-century skills(public speaking, communication, leadership skills, etc.","Gain cultural experiences"
+const courseObjectives = [
+  "Foster aspirations and academic excellence through challenging classes and expert tutors.",
+"Develop key skills for future success in education and careers via engaging workshops.",
+"Guide students to discover their desired field of study for degree pursuits.",
+"Prepare students for university applications and boost their potential.",
+"Promote leadership and inspire students to become change agents.",
+"Provide opportunity for students to expand their networks.",
 ]
 
-const includeItems = [
-  "Tuitions",
-  "Workshops",
-  "Class materials",
-  "Accommodation",
-  "Excursions (Cambridge, London)",
-  "3 Meals a day",
-  "Graduation dinner (Cambridge's Traditional Banquet)",
-  "Transportations in the UK",
-  "Travel and medical insurance",
-  "Support staff 24/7",
-];
 
-const notIncludeItems = [
-  "International fligh ticket",
-  "Visa application fees (if applicable)",
-];
 
-const highlights = ["Certificate of Attendance from a Cambridge College",
-  "University Subjects Exploration (Medicine, Business, Law, Computer Science, etc.)",
-  "University Entrance Preparation",
-  "Learn from Cambridge Academics",
-  "Crafting Perfect Portfolio",
-  "Acquiring 21st Century skills (Public Speaking, Communication, Leadership, etc.)",
+const highlights = ["Study at the University of Cambridge",
+  "Learn from Top University Academics and Professional",
+  "University Application Preparation",
+  "University Subjects Exploration",
+  "Certificate of Attendance from a Cambridge College",
+  "Acquire 21st Century Skills",
+  "Trip to London"
 ];
 
 const List = ({ items }) => {
@@ -134,28 +107,19 @@ const Usd = () => {
       </div>
 
       <div className="max-w-[1280px] mx-auto grid grid-cols-1 sm:grid-cols-2 gap-4 p-8">
-        <div>
-          <h3 className="mb-4">Programme Overview</h3>
-          <List items={programmeOverview} />
-
-          <h3 className="mt-8 mb-4">Programme Objectives</h3>
-          <List items={programmeObjectives} />
+        <div className="text-justify max-w-[500px]">
+          <h3 className="mb-4">Course Overview</h3>
+          <p >{courseOverview1}</p>
+          <p>{courseOverview2}</p>
         </div>
-        <div>
-          <h3 className="mb-4">What students would be able to do at the end of the "University Subject Discovery" course</h3>
+        <div className="text-justify max-w-[500px]">
+          <h3 className="mb-4">Course Objectives</h3>
           <div className="mb-8">
-            <List items={todos} />
+          <List items={courseObjectives} />
+
           </div>
 
-          <h3>Programme Fees:</h3>
-          <h3>Available upon request</h3>
-          <h4 className="mt-4">What is Included:</h4>
-          <List items={includeItems} />
-
-          <h4 className="mt-4">
-            What is <span className="text-red-500 ">Not</span> Included:
-          </h4>
-          <List items={notIncludeItems} />
+          <h4 className="capitalize">Programme Fees: Available upon request</h4>
         </div>
       </div>
 
@@ -179,6 +143,10 @@ const Usd = () => {
       {/* What our students say about us */}
     </div>
   );
+};
+
+List.propTypes = {
+  items: PropTypes.array.isRequired,
 };
 
 export default Usd;

@@ -1,14 +1,7 @@
-import usd1 from "../assets/images/usd/usd01.jpg";
 import usd2 from "../assets/images/usd/usd02.jpg";
-import usd3 from "../assets/images/usd/usd03.jpg";
 import usd4 from "../assets/images/usd/usd04.jpg";
 import usd5 from "../assets/images/usd/usd05.jpg";
-import usd6 from "../assets/images/usd/usd06.jpg";
-import usd7 from "../assets/images/usd/usd07.jpg";
-import usd8 from "../assets/images/usd/usd08.jpg";
 
-import oilsally1 from "../assets/images/about/oilsally1.jpg";
-import oilsally2 from "../assets/images/about/oilsally2.jpg";
 import oilsally3 from "../assets/images/about/oilsally3.jpg";
 import sally from "../assets/images/about/sally.jpg";
 import oil from "../assets/images/about/oil.jpg";
@@ -20,13 +13,6 @@ import tony from "../assets/images/about/tony.jpg"
 import vishal from "../assets/images/about/vishal.jpg"
 import camsisteam from "../assets/images/about/camsisteam.jpg"
 
-import usdtop from "../assets/images/usd/usd_top.jpg";
-import usdoutline from "../assets/images/usd/usdoutline.jpg";
-import usdtimetable from "../assets/images/usd/usdtimetable.jpg";
-
-import PopOut from "../components/Popout";
-
-const images = [usd7, usd2, usd3, usd4, usd5, usd8];
 
 const hero =
   "CAMSIS Education is an education service entity founded by PhD graduates from the Faculty of Education at the University of Cambridge. We are based in Cambridge, Bangkok, and Taipei providing various courses to both students and teachers aiming to create new generations of skilled human resources.";
@@ -49,30 +35,9 @@ const ourLecturers1 = ("Our expert tutors are academics form the University of C
 
 const ourLecturers2 = ("Before founding CAMSIS Education, we experienced the inspiring personalised instruction Cambridge offers first-hand. We believe this unique combination of learning from both Cambridge members and prominent professionals is the best way for our students to develop.")
 
-const List = ({ items }) => {
-  return (
-    <ul>
-      {items.map((item, index) => (
-        <li key={index}>{item}</li>
-      ))}
-    </ul>
-  );
-};
 
-const ImagesGrid = () => {
-  return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 p-8">
-      {images.map((image, index) => (
-        <img
-          className={`rounded-lg ${index > 1 ? "hidden sm:block" : ""}`}
-          src={image}
-          alt=""
-          key={index}
-        />
-      ))}
-    </div>
-  );
-};
+
+
 
 const About = () => {
   return (
