@@ -1,4 +1,4 @@
-import usdtop from "../assets/images/usd/usd_top.jpg";
+import bannercontact from "../assets/images/bannercontact.jpg";
 
 const hero =
   "We would love to hear from you. For general inquiries, partnerships, or other questions, please fill out the form below and we will be in touch shortly.";
@@ -9,7 +9,7 @@ const Contact = () => {
       <div
         className="bg-cover bg-bottom bg-fixed bg-gray-600 bg-blend-overlay min-h-[420px]"
         style={{
-          backgroundImage: `url(${usdtop})`,
+          backgroundImage: `url(${bannercontact})`,
         }}
       >
         <div className="max-w-[1280px] mx-auto p-8 text-center sm:text-left">

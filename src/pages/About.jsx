@@ -8,10 +8,11 @@ import oil from "../assets/images/about/oil.jpg";
 import mypic from "../assets/images/about/my.jpg";
 import jaideep from "../assets/images/about/Jaideep.jpg"
 import monique from "../assets/images/about/monique.jpg"
-import joe from "../assets/images/about/joe.jpg"
-import tony from "../assets/images/about/tony.jpg"
-import vishal from "../assets/images/about/vishal.jpg"
 import camsisteam from "../assets/images/about/camsisteam.jpg"
+import daria from "../assets/images/about/daria.jpg"
+import suyash from "../assets/images/about/suyash.jpg"
+import guy from "../assets/images/about/guy.jpg"
+import corevalue from "../assets/images/about/corevalue.jpg"
 
 
 const hero =
@@ -21,7 +22,7 @@ const coreValues =
   "Our core values are to deliver quality teaching and training, make an academic contribution to the education field, and reduce the social gap in education through our projects, using methods such as giving scholarships to students from low socio-economic backgrounds. Being in the field of Education ourselves, we pay great attention to crafting quality courses. Hence, our teaching teams consist of eminent academics from the University of Cambridge and professionals from various fields ranging from education to business.";
 
 const coreValues2 =
-  "CAMSIS Education mainly includes two kinds of businesses. The first is academic courses catering for students. The programmes will be based in Cambridge only. The second is training programmes for teachers. We provide training both in Cambridge and in overseas in Thailand and Taiwan.";
+  "CAMSIS Education mainly provides two kinds of services The first is academic courses catering for students. The programmes will be based in Cambridge only. The second is training programmes for educators. We provide training both offline and online.";
 
 const poTsai =
   "Dr. Po Tsai’s main passion in life is education, which she has been enthusiastically researching for the past 10 years. She completed her doctorate in education at the Faculty of Education, University of Cambridge. She is currently an ESRC Postdoctoral Fellow and supervises undergraduates in education psychology and learning sciences at the Faculty of Education, University of Cambridge. She is an outstanding scholar and is a specialist on school effectiveness, teacher professional programmes, and wellbeing in schools. Her project, currently funded by ESRC, aims to conduct a study with primary school teachers in Cambridge to adapt strategies and develop games for promoting students’ wellbeing according to DASI. Later, this project will expand beyond Cambridge to the rest of the UK. She also plans to expand the project to more student age groups and other parts of the world. ";
@@ -56,11 +57,11 @@ const About = () => {
         </div>
       </div>
 
-      <div className=" max-w-[1280px] mx-auto gap-8 p-8 sm:py-8 sm:px-0 grid grid-cols-1 sm:grid-cols-2 items-center ">
+      <div className=" max-w-[1000px] mx-auto gap-8 p-8 sm: sm:px-0 grid grid-cols-1 sm:grid-cols-2 items-center ">
         <div className=" flex-1">
-          <img src={oilsally3} className="rounded-lg" alt="" />
+          <img src={corevalue} className="rounded-lg " alt="" />
         </div>
-        <div className=" flex-1">
+        <div className=" flex-1 text-justify">
           <h3 className="mb-4">Core Values</h3>
           <p>{coreValues}</p>
           <p>{coreValues2}</p>
@@ -150,33 +151,36 @@ const About = () => {
           <div className="sm:flex gap-10">
             <div className=" items-center justify-between text-center flex-1 mt-8 ">
               <div>
-                <img src={joe} className=" rounded-lg sm:min-w-[400px] aspect-square object-cover " alt=""  />
+                <img src={daria} className=" rounded-lg sm:min-w-[400px] aspect-square object-cover " alt=""  />
               </div>
               <div className=" sm:mx-8">
-                <h3 className="my-4 text-2xl">Dr. Joe Watson</h3>
-                <div className="font-semibold text-slate-500">PhD in Education, University of Cambridge</div>
-                <p className="font-semibold text-slate-500">Psychometrician at the Psychometrics Centre, Judge Business School, University of Cambridge</p>
+                <h3 className="my-4 text-2xl">Daria Sopelkina</h3>
+                <div className="font-semibold text-slate-500">Cambridge Judge Entrepreneurship Centre, 
+University of Cambridge</div>
+                <p className="font-semibold text-slate-500">Founder of Tumchi (a nutrition startup)
+Cofounder of DataMix (a software development studio)
+Director of Room 8 Studio (a game development company</p>
               </div>
             </div>
             <div className=" items-center justify-between text-center flex-1 mt-8">
               <div>
-                <img src={vishal} className=" rounded-lg sm:min-w-[400px] aspect-square object-cover " alt=""  />
+                <img src={guy} className=" rounded-lg sm:min-w-[400px] aspect-square object-cover " alt=""  />
               </div>
               <div className=" sm:mx-8">
-                <h3 className="my-4 text-2xl">Vishal Jain</h3>
-                <div className="font-semibold text-slate-500">MBA, Judge Business School, University of Cambridge</div>
-                <p className="font-semibold text-slate-500">Strategy, Google Singapore</p>
+                <h3 className="my-4 text-2xl">Guy Doza</h3>
+                <div className="font-semibold text-slate-500">PGCE, MRes, MEd University of Cambridge</div>
+                <p className="font-semibold text-slate-500">Educator/ Speechwriter/ Special Adviser</p>
 
               </div>
             </div>
             <div className=" items-center justify-between text-center flex-1 mt-8">
               <div>
-                <img src={tony} className=" rounded-lg sm:min-w-[400px] aspect-square object-cover " alt=""  />
+                <img src={suyash} className=" rounded-lg sm:min-w-[400px] aspect-square object-cover " alt=""  />
               </div>
               <div className=" sm:mx-8">
-                <h3 className="my-4 text-2xl">Tony Zhou</h3>
-                <div className="font-semibold text-slate-500">PhD candidate in Law, University of Cambridge</div>
-                <p className="font-semibold text-slate-500">Ex-corporate tax lawyer (PricewaterhouseCoopers Australia)</p>
+                <h3 className="my-4 text-2xl">Suyash Bhatt</h3>
+                <div className="font-semibold text-slate-500">MBA, Judge Business School, University of Cambridge</div>
+                <p className="font-semibold text-slate-500">Founder, Foodbud UK</p>
 
               </div>
             </div>
