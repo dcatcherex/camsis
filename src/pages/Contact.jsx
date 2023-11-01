@@ -41,7 +41,7 @@ const Contact = () => {
           </div>
           <div className="w-full bg-white p-2 rounded-lg">
             <h3 className="mb-4 text-blue-950">Phone Numbers</h3>
-            <>+447708091891(UK)</>
+            <>+447340339015(UK)</>
             <p>+66819857217(Thailand)</p>
           </div>
         </div>
