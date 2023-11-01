@@ -41,7 +41,7 @@ const Footer = () => {
             <DevicePhoneMobileIcon className="h-6 w-6" />
             <div>
               <p className="font-semibold">Phone:</p>
-              <p>+447708091891 (UK), +66819857217 (Thailand)</p>
+              <p>+447340339015 (UK), +66819857217 (Thailand)</p>
             </div>
           </div>
         </div>
