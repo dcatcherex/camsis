@@ -2,30 +2,30 @@ import usd2 from "../assets/images/usd/usd02.jpg";
 import usd4 from "../assets/images/usd/usd04.jpg";
 import usd5 from "../assets/images/usd/usd05.jpg";
 
-import oilsally3 from "../assets/images/about/oilsally3.jpg";
-import sally from "../assets/images/about/sally.jpg";
+import shuling from "../assets/images/about/shuling.jpg";
 import oil from "../assets/images/about/oil.jpg";
 import mypic from "../assets/images/about/my.jpg";
 import jaideep from "../assets/images/about/Jaideep.jpg"
 import monique from "../assets/images/about/monique.jpg"
-import camsisteam from "../assets/images/about/camsisteam.jpg"
+import ourstorybg from "../assets/images/about/ourstorybg.jpg"
 import daria from "../assets/images/about/daria.jpg"
 import suyash from "../assets/images/about/suyash.jpg"
 import guy from "../assets/images/about/guy.jpg"
 import corevalue from "../assets/images/about/corevalue.jpg"
+import ourstory from "../assets/images/about/ourstory.jpg"
 
 
 const hero =
   "CAMSIS Education is an education service entity founded by PhD graduates from the Faculty of Education at the University of Cambridge. We are based in Cambridge, Bangkok, and Taipei providing various courses to both students and teachers aiming to create new generations of skilled human resources.";
 
 const coreValues =
-  "Our core values are to deliver quality teaching and training, make an academic contribution to the education field, and reduce the social gap in education through our projects, using methods such as giving scholarships to students from low socio-economic backgrounds. Being in the field of Education ourselves, we pay great attention to crafting quality courses. Hence, our teaching teams consist of eminent academics from the University of Cambridge and professionals from various fields ranging from education to business.";
+  "Our core values are to deliver quality teaching and training, make an academic contribution to the education field, and reduce the social gap in education through our projects, using methods such as giving scholarships to students from low socio-economic backgrounds. Being in the field of Education ourselves, we pay great attention to crafting quality courses. Hence, our teaching teams consist of eminent academics from top universities and professionals from various fields ranging from education to business.";
 
 const coreValues2 =
   "CAMSIS Education mainly provides two kinds of services The first is academic courses catering for students. The programmes will be based in Cambridge only. The second is training programmes for educators. We provide training both offline and online.";
 
-const poTsai =
-  "Dr. Po Tsai’s main passion in life is education, which she has been enthusiastically researching for the past 10 years. She completed her doctorate in education at the Faculty of Education, University of Cambridge. She is currently an ESRC Postdoctoral Fellow and supervises undergraduates in education psychology and learning sciences at the Faculty of Education, University of Cambridge. She is an outstanding scholar and is a specialist on school effectiveness, teacher professional programmes, and wellbeing in schools. Her project, currently funded by ESRC, aims to conduct a study with primary school teachers in Cambridge to adapt strategies and develop games for promoting students’ wellbeing according to DASI. Later, this project will expand beyond Cambridge to the rest of the UK. She also plans to expand the project to more student age groups and other parts of the world. ";
+const shuLing =
+  "Shu Ling was born and raised in Borneo, Malaysia. She is a final year PhD candidate at the Faculty of Education, University of Cambridge. She also supervises undergraduate students from the same faculty in psychology, education, and learning sciences. Shu Ling is deeply passionate about working with young people. Her research focuses on understanding what motivates them to learn, their perception of school, and their social media usage. Her research interests align with her life passion, which is to help young people on their learning journey and see them achieve their full potential.";
 
 const vimunchalee =
   "With a B.A. in English from Chulalongkorn University in Thailand, an M.A. in International Culture and Communication Studies from Waseda University in Japan, and a PhD in Education from the University of Cambridge, Vimunchalee is set to make a valuable contribution in the education field. Being aware that there is always room to improve the quality of teaching and learning, she aims to deliver quality programmes shaping both students and teachers to be skilled and competent in areas needed in the 21st century. Her main goal is to create a network of skillful and competent human resources and bring change, not only to those attending the programmes, but also to those who are from disadvantaged backgrounds with a lack of access to resources.";
@@ -46,7 +46,7 @@ const About = () => {
       <div
         className="bg-cover bg-bottom bg-fixed bg-gray-600 bg-blend-overlay min-h-[420px]"
         style={{
-          backgroundImage: `url(${camsisteam})`,
+          backgroundImage: `url(${ourstorybg})`,
         }}
       >
         <div className="max-w-[1280px] mx-auto p-8 text-center sm:text-left">
@@ -79,23 +79,14 @@ const About = () => {
       {/* Our Team */}
       <div className="max-w-[1000px] mx-auto ">
         <h2 className="mt-8 text-center">Our Team</h2>
-        <div className="p-8 sm:flex items-center justify-between ">
-          <div>
-            <img src={sally} className=" rounded-lg sm:min-w-[400px]" alt="" />
-          </div>
-          <div className=" sm:mx-8">
-            <h3 className="my-4 text-2xl">Dr. Po Tsai</h3>
-            <p className="uppercase font-semibold">founder</p>
-            <p className="text-justify ">{poTsai}</p>
-          </div>
-        </div>
+        
         <div className="p-8 sm:flex items-center justify-between ">
           <div>
             <img src={oil} className=" rounded-lg sm:min-w-[400px]" alt="" />
           </div>
           <div className=" sm:mx-8">
             <h3 className="my-4 text-2xl">Dr. Vimunchalee Dulyasittikorn</h3>
-            <p className="uppercase font-semibold">founder</p>
+            <p className="uppercase font-semibold">Co-founder</p>
             <p className="text-justify ">{vimunchalee}</p>
           </div>
         </div>
@@ -107,6 +98,16 @@ const About = () => {
             <h3 className="my-4 text-2xl">My Ha Pham</h3>
             <p className="uppercase font-semibold">Program Manager</p>
             <p className="text-justify ">{my}</p>
+          </div>
+        </div>
+        <div className="p-8 sm:flex items-center justify-between ">
+          <div>
+            <img src={shuling} className=" rounded-lg sm:min-w-[400px]" alt="" />
+          </div>
+          <div className=" sm:mx-8">
+            <h3 className="my-4 text-2xl">Shu Ling</h3>
+            <p className="uppercase font-semibold">Assistant Project Manager</p>
+            <p className="text-justify ">{shuLing}</p>
           </div>
         </div>
       </div>
@@ -159,7 +160,7 @@ const About = () => {
 University of Cambridge</div>
                 <p className="font-semibold text-slate-500">Founder of Tumchi (a nutrition startup)
 Cofounder of DataMix (a software development studio)
-Director of Room 8 Studio (a game development company</p>
+Director of Room 8 Studio (a game development company)</p>
               </div>
             </div>
             <div className=" items-center justify-between text-center flex-1 mt-8">

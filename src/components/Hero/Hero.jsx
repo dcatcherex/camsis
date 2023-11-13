@@ -46,7 +46,7 @@ const Hero = () => {
         </h2>
         <p className="max-w-[700px] mx-auto text-center leading-loose">
           Study at one of our academic/training programmes based in Cambridge.
-          All teaching is delivered by members from the University of Cambridge.
+          All teaching is delivered by members from top universities and industry experts.
         </p>
 
         {/* <img
@@ -77,9 +77,7 @@ const Hero = () => {
             <h2 className="uppercase">cambridge young entrepreneurs (cye)</h2>
             <img className="my-4 sm:my-6 rounded-md " src={cyepic}  alt="" />
             <p className="line-clamp-3">
-              Situated in the historic town of Cambridge, the course combines
-              both academic knowledge for university and key skills for future
-              careers.
+            This course is appropriate for all students who are interested in innovation and entrepreneurship, which are necessary components for starting new businesses at present.
             </p>
             <div className="mt-6">
               <Link to={"/cye"} className="btn">
@@ -113,7 +111,7 @@ const Hero = () => {
             <h2 className="uppercase">school leadership programme (slp) </h2>
             <img className="my-6 rounded-md " src={slppic} alt="" />
             <p className="line-clamp-3">
-            This programme is designed for the top decision-makers of School administration such as School Owners, Leadership, and Principals.
+            This programme is designed for participants who are teachers and those who are in top decision-makers of School administration such as School Owners, Leadership, and Principals.
             </p>
             <div className="mt-6">
               <Link to={"/slp"} className="btn bg-rose-500">
@@ -169,7 +167,7 @@ const Hero = () => {
             <h2 className="uppercase font-semibold text-white  ">our partners</h2>
             <p className="py-4">{partners}</p>
           </div>
-          <button className="btn bg-white text-sky-500 min-w-[130px] font-semibold"><Link to={""}>Contact us</Link></button>
+          {/* <button className="btn bg-white text-sky-500 min-w-[130px] font-semibold"><Link to={"contact"}>Contact us</Link></button> */}
         </div>
       </div>
     </>
