@@ -44,7 +44,7 @@ const About = () => {
   return (
     <div>
       <div
-        className="bg-cover bg-bottom bg-fixed bg-gray-600 bg-blend-overlay min-h-[420px]"
+        className="bg-cover bg-center bg-fixed bg-gray-600 bg-blend-overlay min-h-[420px]"
         style={{
           backgroundImage: `url(${ourstorybg})`,
         }}

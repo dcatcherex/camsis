@@ -76,7 +76,7 @@ const Hero = () => {
             </p>
             <h2 className="uppercase">cambridge young entrepreneurs (cye)</h2>
             <img className="my-4 sm:my-6 rounded-md " src={cyepic}  alt="" />
-            <p className="line-clamp-3">
+            <p className="">
             This course is appropriate for all students who are interested in innovation and entrepreneurship, which are necessary components for starting new businesses at present.
             </p>
             <div className="mt-6">
@@ -110,7 +110,7 @@ const Hero = () => {
             </p>
             <h2 className="uppercase">school leadership programme (slp) </h2>
             <img className="my-6 rounded-md " src={slppic} alt="" />
-            <p className="line-clamp-3">
+            <p className="">
             This programme is designed for participants who are teachers and those who are in top decision-makers of School administration such as School Owners, Leadership, and Principals.
             </p>
             <div className="mt-6">
