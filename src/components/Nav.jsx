@@ -14,6 +14,7 @@ const programme = [
 ];
 
 const mobilemenu = [
+  { name: "ACCOMMODATION", link: "accommodation" },
   { name: "ABOUT US", link: "about" },
   { name: "CONTACT US", link: "contact" },
 ];
