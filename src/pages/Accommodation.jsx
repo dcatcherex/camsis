@@ -1,6 +1,6 @@
 
 
-import banner from "../assets/images/accommodation/banner.jpg";
+import top from "../assets/images/accommodation/banner.jpg";
 import pic1 from "../assets/images/accommodation/pic1.jpg";
 import pic2 from "../assets/images/accommodation/pic2.jpg";
 import pic3 from "../assets/images/accommodation/3.jpg";
@@ -29,7 +29,7 @@ const Accommodation = () => {
       <div
         className="bg-cover bg-center bg-fixed bg-gray-600 bg-blend-overlay min-h-[420px]"
         style={{
-          backgroundImage: `url(${banner})`,
+          backgroundImage: `url(${top})`,
         }}
       >
         <div className="max-w-[1280px] mx-auto p-8 text-center sm:text-left">
