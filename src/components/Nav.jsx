@@ -76,7 +76,10 @@ const Nav = () => {
         <li className="hidden sm:block">
           <Link to={"about"}>about us</Link>
         </li>
-        {/* <li className="hidden sm:block">scholarship</li> */}
+        <li className="hidden sm:block">
+          <Link to={"accommodation"}>Accommodation</Link>
+        </li>
+        
         <li className="hidden sm:block">
           <Link to={"contact"}>contact us</Link>
         </li>
