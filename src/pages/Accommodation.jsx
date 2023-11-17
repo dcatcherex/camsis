@@ -43,7 +43,7 @@ const Accommodation = () => {
       </div>
 
       <div className="bg-[#f5f5f5] ">
-        <div className=" max-w-6xl mx-auto gap-8 p-8 sm:px-0 grid grid-cols-1  sm:grid-cols-2 items-center ">
+        <div className=" max-w-6xl flex flex-col-reverse md:flex-row gap-8 mx-auto p-8 items-center ">
           <div className=" flex-1 text-justify  ">
             <h3 className="mb-12 md:text-justify text-center">Staying at Fitzwilliam College</h3>
             <p>{general}</p>
