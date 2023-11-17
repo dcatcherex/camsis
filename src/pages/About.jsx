@@ -12,7 +12,6 @@ import daria from "../assets/images/about/daria.jpg"
 import suyash from "../assets/images/about/suyash.jpg"
 import guy from "../assets/images/about/guy.jpg"
 import corevalue from "../assets/images/about/corevalue.jpg"
-import ourstory from "../assets/images/about/ourstory.jpg"
 
 
 const hero =

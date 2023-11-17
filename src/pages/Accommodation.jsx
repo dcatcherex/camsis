@@ -1,6 +1,4 @@
-import usd2 from "../assets/images/usd/usd02.jpg";
-import usd4 from "../assets/images/usd/usd04.jpg";
-import usd5 from "../assets/images/usd/usd05.jpg";
+
 
 import banner from "../assets/images/accommodation/banner.jpg";
 import pic1 from "../assets/images/accommodation/pic1.jpg";
