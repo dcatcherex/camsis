@@ -38,7 +38,7 @@ const highlights = ["Study at the University of Cambridge",
   "Learn from Top University Academics and Professional",
   "University Application Preparation",
   "University Subjects Exploration",
-  "Certificate of Attendance from a Cambridge College",
+  "Certificate of Attendance",
   "Acquire 21st Century Skills",
   "Trip to London"
 ];

@@ -19,7 +19,7 @@ const hero =
   "This course is suitable for teachers and all top decision-makers of school administration such as school owners, executive leaders, and principals interested in professional development.";
 
 const highlights = [
-  "Certificate of Attendance from a Cambridge College",
+  "Certificate of Attendance",
   "Taught by Cambridge Professors/Lecturers",
   "School Visits",
   "Networking Opportunities with Cambridge Faculties and Participants from Leading Schools",
