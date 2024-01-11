@@ -1,4 +1,4 @@
-import cye1 from "../assets/images/cye/cye.jpg";
+import cye1 from "../assets/images/cye/cye_1.jpg";
 import cye2 from "../assets/images/cye/cye_2.jpg";
 import cye3 from "../assets/images/cye/cye_3.jpg";
 import cye4 from "../assets/images/cye/cye_4.jpg";

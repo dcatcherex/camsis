@@ -29,7 +29,7 @@ const Accommodation = () => {
       <div
         className="bg-cover bg-center bg-fixed bg-gray-600 bg-blend-overlay min-h-[420px]"
         style={{
-          backgroundImage: `url(${pic1})`,
+          backgroundImage: `url(${pic3})`,
         }}
       >
         <div className="max-w-[1280px] mx-auto p-8 text-center sm:text-left">
