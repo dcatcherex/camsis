@@ -7,6 +7,7 @@ import usdpic from "../../assets/images/usd/usd_top.jpg";
 import slppic from "../../assets/images/slp/slp1.jpg"
 import cyetest from "../../assets/data/cye_testimonials.json";
 import introvideo from "../../assets/images/cye/introvideo.jpg";
+import Bac from "./bac";
 
 const partners = ("We pride ourselves in delivering high quality educational programmes and collaborative projects. Hence, we work closely with educational institutions from all over the world, private companies, and local businesses to provide both  theoretical guidance and hands-on experience to our participants")
 
@@ -121,6 +122,11 @@ const Hero = () => {
           </div>
         </div>
       </div>
+      {/* bac */}
+        <div className="max-w-[1280px] mx-auto px-8 py-10">
+          <Bac />
+        </div>
+            
       {/* testimonials */}
       <div className="px-4 py-10 bg-white">
         <h2 className="text-4xl font-bold text-center">
