@@ -21,27 +21,27 @@ By making a booking, the first named person agrees on behalf of all persons deta
 
 - **Booking Deposit**
 
-2.1 A booking deposit fee is required in order to conﬁrm a booking on the Course.
+  2.1 A booking deposit fee is required in order to conﬁrm a booking on the Course.
 
-2.2 The booking deposit fee required will be notified to you at the time of booking and is non-refundable.
+  2.2 The booking deposit fee required will be notified to you at the time of booking and is non-refundable.
 
 - **Balance Payments**
 
-3.1 The price list for the Course in effect at the time of enrolment is an integral part of the contract. Please refer to [CAMSIS Education Ltd.](https://camsiseducation.com/) for the total course fee.
+  3.1 The price list for the Course in effect at the time of enrolment is an integral part of the contract. Please refer to [CAMSIS Education Ltd.](https://camsiseducation.com/) for the total course fee.
 
-3.2 The course fee is due and payable in full according to the terms of the invoice. The payment date  is  deﬁned  as  the  date at which the payment is credited to the CAMSIS Education account speciﬁed in the enrolment conﬁrmation. The money transfer must indicate the Course Student‘s name.
+  3.2 The course fee is due and payable in full according to the terms of the invoice. The payment date  is  deﬁned  as  the  date at which the payment is credited to the CAMSIS Education account speciﬁed in the enrolment conﬁrmation. The money transfer must indicate the Course Student‘s name.
 
-3.3 All bank charges related to the payment of the course fee shall be borne by you.
+  3.3 All bank charges related to the payment of the course fee shall be borne by you.
 
-3.4 If we do not receive full payment of the course fees  by the due date, we reserve the right to treat the booking as cancelled and the student will no longer be entitled to the courses booked.
+  3.4 If we do not receive full payment of the course fees  by the due date, we reserve the right to treat the booking as cancelled and the student will no longer be entitled to the courses booked.
 
-3.5 In case of non-attendance at the booked Course, delayed arrival, early departure or withdrawal from a Course, or any other absences (e.g. due to illness), there is no claim to reimbursement of the Course fees. Please refer to clause 10 with regards to Insurance requirements.
+  3.5 In case of non-attendance at the booked Course, delayed arrival, early departure or withdrawal from a Course, or any other absences (e.g. due to illness), there is no claim to reimbursement of the Course fees. Please refer to clause 10 with regards to Insurance requirements.
 
-3.6 We reserve the right to amend our course fees at any time. We also reserve the right to correct errors in both advertised and confirmed prices.  We will endeavour to provide reasonable notice of any such changes but you must check the price of your chosen course at the time of booking.
+  3.6 We reserve the right to amend our course fees at any time. We also reserve the right to correct errors in both advertised and confirmed prices.  We will endeavour to provide reasonable notice of any such changes but you must check the price of your chosen course at the time of booking.
 
-3.7 It is not possible to combine discount codes without our express written consent. For example, discount codes, scholarships and/or voucher codes cannot be used in conjunction with one another. One code may be used per enrolment. Where multiple discount codes have been used, only the higher value code will be accepted.
+  3.7 It is not possible to combine discount codes without our express written consent. For example, discount codes, scholarships and/or voucher codes cannot be used in conjunction with one another. One code may be used per enrolment. Where multiple discount codes have been used, only the higher value code will be accepted.
 
-3.8 At our absolute discretion, we may agree to balance payments being made by instalments. Please contact us for further details.
+  3.8 At our absolute discretion, we may agree to balance payments being made by instalments. Please contact us for further details.
 
 - **Accuracy**
 
@@ -53,7 +53,7 @@ In exceptional cases you may postpone the Course booked and transfer your course
 
 - **Cancellation by You**
 
-6.1 You can cancel the Course booking subject to the following conditions.
+  6.1 You can cancel the Course booking subject to the following conditions.
 
 1. a) All cancellations must be made in writing and take effect from the date we receive such notice.
 2. b) All deposit payments are ﬁnal and no refund will be made under any circumstances.
@@ -79,23 +79,23 @@ Email: [info@camsiseducation.com](mailto:info@camsiseducation.com)
 
 - **Cancellation and Changes by Us**
 
-7.1 We  retain the right to cancel and/or amend a Course at any time for any reason whatsoever. In the event a Course is cancelled, a refund of all monies paid to us by you will be made. We regret that we cannot meet any expenses or losses that you may incur as a result of a change or cancellation. Please keep this in mind when making additional commitments related to the Course, such  as airplane, hotel, and car reservations. In the event of cancellation, we will use our best efforts to give prompt notice.
+  7.1 We  retain the right to cancel and/or amend a Course at any time for any reason whatsoever. In the event a Course is cancelled, a refund of all monies paid to us by you will be made. We regret that we cannot meet any expenses or losses that you may incur as a result of a change or cancellation. Please keep this in mind when making additional commitments related to the Course, such  as airplane, hotel, and car reservations. In the event of cancellation, we will use our best efforts to give prompt notice.
 
-7.2 Very rarely, we may be forced by *Events Beyond Our Control* (see clause 11) to change or cancel your Course, in which case we will offer you alternatives, a postponement of your booking or a full refund of all monies paid to us.
+  7.2 Very rarely, we may be forced by *Events Beyond Our Control* (see clause 11) to change or cancel your Course, in which case we will offer you alternatives, a postponement of your booking or a full refund of all monies paid to us.
 
 If this situation does occur, we regret we will be unable to pay you compensation or meet any costs or expenses you incur as a result.
 
 - **Course Rules**
 
-8.1 All students must show respect at all times to fellow students and   members   of our staff. The  Course  rules  outlined  below are designed  to ensure  that  all  the  students  and our  staff  are  able  to enjoy the Course, free from any unpleasant, intimidating or aggressive behaviour and in safety. Any Student who consistently breaks the Course rules, breaks the law or displays aggressive or intimidating or racist behaviour towards another student or member of staff will face instant dismissal from the Course. No refunds shall be issued due to a breach of the Course rules.
+  8.1 All students must show respect at all times to fellow students and   members   of our staff. The  Course  rules  outlined  below are designed  to ensure  that  all  the  students  and our  staff  are  able  to enjoy the Course, free from any unpleasant, intimidating or aggressive behaviour and in safety. Any Student who consistently breaks the Course rules, breaks the law or displays aggressive or intimidating or racist behaviour towards another student or member of staff will face instant dismissal from the Course. No refunds shall be issued due to a breach of the Course rules.
 
-8.2 Students found to give unwanted attention/communication to other students and staff after  the  other  person  has   stated  they do not wish any more attention should not pursue any more attempts of contact. Continued attempts can be construed as stalking, bullying and/or harassment which can have legal implications on the pursuer.
+  8.2 Students found to give unwanted attention/communication to other students and staff after  the  other  person  has   stated  they do not wish any more attention should not pursue any more attempts of contact. Continued attempts can be construed as stalking, bullying and/or harassment which can have legal implications on the pursuer.
 
 - **Our Responsibilities for your booking**
 
-9.1 Subject to the remainder of this clause, we have a duty to either select the suppliers of the services making up your booking with us with reasonable skill and care (where we use the services of third party suppliers to provide your booking) or to provide the services you have booked with reasonable skill and care (where we are performing those services). We have no liability to you except in cases where it is proved that we have breached that duty and damage to you has been caused.
+  9.1 Subject to the remainder of this clause, we have a duty to either select the suppliers of the services making up your booking with us with reasonable skill and care (where we use the services of third party suppliers to provide your booking) or to provide the services you have booked with reasonable skill and care (where we are performing those services). We have no liability to you except in cases where it is proved that we have breached that duty and damage to you has been caused.
 
-9.2 We will not be responsible or pay you compensation for any injury, illness, death, loss, damage, expense, cost or other claim of any description if it results from:
+  9.2 We will not be responsible or pay you compensation for any injury, illness, death, loss, damage, expense, cost or other claim of any description if it results from:
 
 1. a) the act(s) and/or omission(s) of the person(s) affected; or
 2. b) the act(s) and/or omission(s) of a third party unconnected with the provision of the services contracted for and which were unforeseeable or unavoidable; or
@@ -108,19 +108,7 @@ If this situation does occur, we regret we will be unable to pay you compensatio
 
 9.5 Please note, we cannot accept any liability for any damage, loss of expense or other sum(s) of any description: (a) which on the basis of the information given to us by you concerning your booking prior to our accepting it, we could not have foreseen you would suffer or incur if we breached our contract with you: or (b) relate to any business.
 
-7.6 We will not accept responsibility for services or facilities, which do not form part of your booking or where they are not advertised in our marketing materials or website. For example, any excursion you book whilst attending a summer school, or any service or facility which any other supplier agrees to provide for you.
-
-- **Insurance**
-
-10.1 All Students attending a summer school have insurance included in their course fees. For full details of the insurance policy, please visit: https://camsiseducation.com/
-
-10.2 Please  note  that  Students  may  be  charged for damages to property belonging to us, the host venue, or that of another Student/staff member. Where these damages are not covered by the insurance policy included in the course fees, the Student may be required to pay for costs.
-
-10.3 If a Student is not satisﬁed with the insurance cover provided by us, there is no restriction on taking out their own additional insurance before attending the Course.
-
-10.4 All EU Nationals are required to bring valid documentation to avail of the free medical beneﬁts available to EU nationals with the NHS.
-
-10.5 You must be satisfied that your insurance fully covers all your personal requirements including pre-existing medical conditions, cancellation charges, medical expenses and cancellation in the event of accident or illness. If you choose to book a Course without adequate insurance cover, we will not be liable for any losses howsoever arising, in respect of which insurance cover would otherwise have been available.
+9.6 We will not accept responsibility for services or facilities, which do not form part of your booking or where they are not advertised in our marketing materials or website. For example, any excursion you book whilst attending a summer school, or any service or facility which any other supplier agrees to provide for you.
 
 - **Events Beyond Our Control**
 
@@ -128,11 +116,11 @@ Except where otherwise expressly stated in these Terms and Conditions we will no
 
 - **Further Information**
 
-12.1 We make  no  guarantee  of  any  speciﬁc results from the use of the Course.
+  10.1 We make  no  guarantee  of  any  speciﬁc results from the use of the Course.
 
-12.2 No part of the Course is intended to constitute advice and the content of the Course should not be relied upon when making any decisions or taking any action of any kind.
+  10.2 No part of the Course is intended to constitute advice and the content of the Course should not be relied upon when making any decisions or taking any action of any kind.
 
-12.3 Any information that forms part of the Course is not designed with commercial purposes in mind. We make no representation or warranty that the Course or any content therein is suitable for use in commercial situations or that it constitutes accurate data and / or advice.
+  10.3 Any information that forms part of the Course is not designed with commercial purposes in mind. We make no representation or warranty that the Course or any content therein is suitable for use in commercial situations or that it constitutes accurate data and / or advice.
 
 - **Applicable Law**
 
@@ -160,50 +148,50 @@ These Terms and conditions must be read and accepted in line with our Coronaviru
 
 - All under 18s will be treated as fully vaccinated. Therefore, participants joining our CYE Bootcamp will not need to be tested whether they are vaccinated or not.
 - On-site Policy
-    - Face masks are available to all students and staff.
-    - The college does regular deep cleaning of social spaces.
-    - Hand sanitiser available across campuses
+  - Face masks are available to all students and staff.
+  - The college does regular deep cleaning of social spaces.
+  - Hand sanitiser available across campuses
 - In the event of a positive test, we will follow the steps advised by the UK government:
-    - Mandatory quarantine in a bedroom.
-    - All meals delivered to the bedroom.
-    - Immediate quarantine and testing of others who have been in contact with the person.
-    - Anyone who returns a negative test will not have to continue quarantine.
+  - Mandatory quarantine in a bedroom.
+  - All meals delivered to the bedroom.
+  - Immediate quarantine and testing of others who have been in contact with the person.
+  - Anyone who returns a negative test will not have to continue quarantine.
 
 We  reserve the right to make minor updates to the Coronavirus Policy in line with changes to ofﬁcial advice from the UK government or our accrediting body.
 
 - **Campus**
 
-20.1 The Course shall take place at the Campus unless otherwise advised by us at any time before the commencement of the Course.
+  11.1 The Course shall take place at the Campus unless otherwise advised by us at any time before the commencement of the Course.
 
-20.2 The Student agrees to comply with any rules and regulations in place at the Campus.
+  11.2 The Student agrees to comply with any rules and regulations in place at the Campus.
 
 - **Accommodation**
 
-21.1 On request, we can arrange accommodation with third parties subject to a rental fee. Any request for the booking of accommodation must be indicated when enrolling. Prior inspection of the accommodation is not possible.
+  12.1 On request, we can arrange accommodation with third parties subject to a rental fee. Any request for the booking of accommodation must be indicated when enrolling. Prior inspection of the accommodation is not possible.
 
-21.2 The accommodation is rented only on a Course by Course basis. The date for moving into the accommodation is the published arrival date, and the date for moving out is the published departure date.
+  12.2 The accommodation is rented only on a Course by Course basis. The date for moving into the accommodation is the published arrival date, and the date for moving out is the published departure date.
 
-21.3 The Student is responsible for exercising due care in the accommodation and keeping it clean during their stay. On departure, the accommodation must be left in a clean and tidy state.
+  12.3 The Student is responsible for exercising due care in the accommodation and keeping it clean during their stay. On departure, the accommodation must be left in a clean and tidy state.
 
-22.4 Any violation of the third party accommodation provider’s rules may result in termination of your booking.
+  13.4 Any violation of the third party accommodation provider’s rules may result in termination of your booking.
 
 - **Rules**
 
-22.1 Students are expected to attend all provided meals, classes and arranged activities and excursions.
+  14.1 Students are expected to attend all provided meals, classes and arranged activities and excursions.
 
-22.2  All damage to property, equipment and rooms will be charged to the student.
+  14.2  All damage to property, equipment and rooms will be charged to the student.
 
-22.3 Gratuitous or wilful damage to college property, public property or other students’ property will result in dismissal from the Course.
+  14.3 Gratuitous or wilful damage to college property, public property or other students’ property will result in dismissal from the Course.
 
-22.4 Consumption or possession of alcohol by students of any age is not permitted and will result in dismissal from the Course.
+  14.4 Consumption or possession of alcohol by students of any age is not permitted and will result in dismissal from the Course.
 
-22.5 Drug-taking or possession of drugs will result in instant dismissal from the Course.
+  14.5 Drug-taking or possession of drugs will result in instant dismissal from the Course.
 
-22.6 Racist or intimidating behaviour towards another student or member of staff will result in dismissal from the Course.
+  14.6 Racist or intimidating behaviour towards another student or member of staff will result in dismissal from the Course.
 
-22.7 Personal mobile phones must be turned off during all lessons and scheduled activities.
+  14.7 Personal mobile phones must be turned off during all lessons and scheduled activities.
 
-22.8 Smoking is strictly prohibited.
+  14.8 Smoking is strictly prohibited.
 
 - **Visas**
 

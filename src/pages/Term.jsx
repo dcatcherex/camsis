@@ -1,4 +1,4 @@
-import ReactMarkdown from 'react-markdown';
+import ReactMarkdown from "react-markdown";
 
 function Term() {
   const markdownContent = `
@@ -100,10 +100,10 @@ function Term() {
   
   9.2 We will not be responsible or pay you compensation for any injury, illness, death, loss, damage, expense, cost or other claim of any description if it results from:
   
-  1. a) the act(s) and/or omission(s) of the person(s) affected; or
-  2. b) the act(s) and/or omission(s) of a third party unconnected with the provision of the services contracted for and which were unforeseeable or unavoidable; or
-  3. c) unusual or unforeseeable circumstances beyond ours or our supplier(s) control, the consequences of which could not have been avoided even if all due care had been exercised; or
-  4. d) an event which either ourselves or suppliers could not, even with all due care, have foreseen or forestalled.
+     a) the act(s) and/or omission(s) of the person(s) affected; or
+     b) the act(s) and/or omission(s) of a third party unconnected with the provision of the services contracted for and which were unforeseeable or unavoidable; or
+     c) unusual or unforeseeable circumstances beyond ours or our supplier(s) control, the consequences of which could not have been avoided even if all due care had been exercised; or
+     d) an event which either ourselves or suppliers could not, even with all due care, have foreseen or forestalled.
   
   9.3 It is a condition of our acceptance of liability under this clause that you notify any claim to ourselves and our supplier(s) strictly in accordance with the complaints procedure set out in these Terms and Conditions.
   
@@ -111,19 +111,7 @@ function Term() {
   
   9.5 Please note, we cannot accept any liability for any damage, loss of expense or other sum(s) of any description: (a) which on the basis of the information given to us by you concerning your booking prior to our accepting it, we could not have foreseen you would suffer or incur if we breached our contract with you: or (b) relate to any business.
   
-  7.6 We will not accept responsibility for services or facilities, which do not form part of your booking or where they are not advertised in our marketing materials or website. For example, any excursion you book whilst attending a summer school, or any service or facility which any other supplier agrees to provide for you.
-  
-  - **Insurance**
-  
-  10.1 All Students attending a summer school have insurance included in their course fees. For full details of the insurance policy, please visit: https://camsiseducation.com/
-  
-  10.2 Please  note  that  Students  may  be  charged for damages to property belonging to us, the host venue, or that of another Student/staff member. Where these damages are not covered by the insurance policy included in the course fees, the Student may be required to pay for costs.
-  
-  10.3 If a Student is not satisﬁed with the insurance cover provided by us, there is no restriction on taking out their own additional insurance before attending the Course.
-  
-  10.4 All EU Nationals are required to bring valid documentation to avail of the free medical beneﬁts available to EU nationals with the NHS.
-  
-  10.5 You must be satisfied that your insurance fully covers all your personal requirements including pre-existing medical conditions, cancellation charges, medical expenses and cancellation in the event of accident or illness. If you choose to book a Course without adequate insurance cover, we will not be liable for any losses howsoever arising, in respect of which insurance cover would otherwise have been available.
+  9.6 We will not accept responsibility for services or facilities, which do not form part of your booking or where they are not advertised in our marketing materials or website. For example, any excursion you book whilst attending a summer school, or any service or facility which any other supplier agrees to provide for you.
   
   - **Events Beyond Our Control**
   
@@ -131,11 +119,11 @@ function Term() {
   
   - **Further Information**
   
-  12.1 We make  no  guarantee  of  any  speciﬁc results from the use of the Course.
+  10.1 We make  no  guarantee  of  any  speciﬁc results from the use of the Course.
   
-  12.2 No part of the Course is intended to constitute advice and the content of the Course should not be relied upon when making any decisions or taking any action of any kind.
+  10.2 No part of the Course is intended to constitute advice and the content of the Course should not be relied upon when making any decisions or taking any action of any kind.
   
-  12.3 Any information that forms part of the Course is not designed with commercial purposes in mind. We make no representation or warranty that the Course or any content therein is suitable for use in commercial situations or that it constitutes accurate data and / or advice.
+  10.3 Any information that forms part of the Course is not designed with commercial purposes in mind. We make no representation or warranty that the Course or any content therein is suitable for use in commercial situations or that it constitutes accurate data and / or advice.
   
   - **Applicable Law**
   
@@ -176,37 +164,37 @@ function Term() {
   
   - **Campus**
   
-  20.1 The Course shall take place at the Campus unless otherwise advised by us at any time before the commencement of the Course.
+  11.1 The Course shall take place at the Campus unless otherwise advised by us at any time before the commencement of the Course.
   
-  20.2 The Student agrees to comply with any rules and regulations in place at the Campus.
+  11.2 The Student agrees to comply with any rules and regulations in place at the Campus.
   
   - **Accommodation**
   
-  21.1 On request, we can arrange accommodation with third parties subject to a rental fee. Any request for the booking of accommodation must be indicated when enrolling. Prior inspection of the accommodation is not possible.
+  12.1 On request, we can arrange accommodation with third parties subject to a rental fee. Any request for the booking of accommodation must be indicated when enrolling. Prior inspection of the accommodation is not possible.
   
-  21.2 The accommodation is rented only on a Course by Course basis. The date for moving into the accommodation is the published arrival date, and the date for moving out is the published departure date.
+  12.2 The accommodation is rented only on a Course by Course basis. The date for moving into the accommodation is the published arrival date, and the date for moving out is the published departure date.
   
-  21.3 The Student is responsible for exercising due care in the accommodation and keeping it clean during their stay. On departure, the accommodation must be left in a clean and tidy state.
+  12.3 The Student is responsible for exercising due care in the accommodation and keeping it clean during their stay. On departure, the accommodation must be left in a clean and tidy state.
   
-  22.4 Any violation of the third party accommodation provider’s rules may result in termination of your booking.
+  12.4 Any violation of the third party accommodation provider’s rules may result in termination of your booking.
   
   - **Rules**
   
-  22.1 Students are expected to attend all provided meals, classes and arranged activities and excursions.
+  13.1 Students are expected to attend all provided meals, classes and arranged activities and excursions.
   
-  22.2  All damage to property, equipment and rooms will be charged to the student.
+  13.2  All damage to property, equipment and rooms will be charged to the student.
   
-  22.3 Gratuitous or wilful damage to college property, public property or other students’ property will result in dismissal from the Course.
+  13.3 Gratuitous or wilful damage to college property, public property or other students’ property will result in dismissal from the Course.
   
-  22.4 Consumption or possession of alcohol by students of any age is not permitted and will result in dismissal from the Course.
+  13.4 Consumption or possession of alcohol by students of any age is not permitted and will result in dismissal from the Course.
   
-  22.5 Drug-taking or possession of drugs will result in instant dismissal from the Course.
+  13.5 Drug-taking or possession of drugs will result in instant dismissal from the Course.
   
-  22.6 Racist or intimidating behaviour towards another student or member of staff will result in dismissal from the Course.
+  13.6 Racist or intimidating behaviour towards another student or member of staff will result in dismissal from the Course.
   
-  22.7 Personal mobile phones must be turned off during all lessons and scheduled activities.
+  13.7 Personal mobile phones must be turned off during all lessons and scheduled activities.
   
-  22.8 Smoking is strictly prohibited.
+  13.8 Smoking is strictly prohibited.
   
   - **Visas**
   
@@ -214,7 +202,7 @@ function Term() {
 
   return (
     <div className="p-10 bg-gray-100">
-        <ReactMarkdown children={markdownContent} />;
+      <ReactMarkdown children={markdownContent} />;
     </div>
   );
 }
